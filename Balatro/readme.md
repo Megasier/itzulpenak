@@ -18,4 +18,4 @@ Nola instalatu:
 4. "Localization" karpetan sartu
 5. Jaitsitako "es_ES.lua" hona sartu, eta dagoenarekin ordezkatu
 
-![ezgif-29810b5c2f853a](https://github.com/user-attachments/assets/120ea39b-f9b9-424d-9afa-9d8037dc2331)
+![ezgif-1b447a79f51e13](https://github.com/user-attachments/assets/c077e30a-5d0a-43e2-a52f-a8eb0e369ea1)
