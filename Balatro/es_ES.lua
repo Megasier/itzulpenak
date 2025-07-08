@@ -3487,7 +3487,7 @@ return {
             k_plus_stone="+1 Harri",
             k_plus_tarot="+1 Tarot",
             k_poker_hand="poker esku",
-            k_profile="Profil",
+            k_profile="Profila",
             k_progress="Aurrerapena",
             k_rank="Zenbakia",
             k_rare="Arraroa",
