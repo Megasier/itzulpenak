@@ -19,6 +19,3 @@ Nola instalatu:
 5. Jaitsitako "es_ES.lua" hona sartu, eta dagoenarekin ordezkatu
 
 ![ezgif-29810b5c2f853a](https://github.com/user-attachments/assets/120ea39b-f9b9-424d-9afa-9d8037dc2331)
-
-
-[wea](https://github.com/Megasier/itzulpenak/blob/main/Balatro/es_ES.lua)
