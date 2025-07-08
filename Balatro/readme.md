@@ -12,7 +12,7 @@ Baldintzak:
 _____________________________________________________________________________________________________________________
 
 Nola instalatu:
-1. "es_ES.lua" [jaitsi]([link](https://drive.google.com/file/d/1j2kTKX_hfq-d-2Gz5gFHqpbFPtLnXltd/view?usp=sharing))
+1. "es_ES.lua" [jaitsi](https://drive.google.com/file/d/1j2kTKX_hfq-d-2Gz5gFHqpbFPtLnXltd/view?usp=sharing)
 2. Balatro instalatuta dagoen fitxategira joan
 3. Balatro.exe aplikazioa eskuin klikarekin arrastratu 7-zip aukera agertzeko
 4. "Localization" karpetan sartu
