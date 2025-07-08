@@ -1,1 +1,5 @@
 Balatro euskaraz
+
+
+
+a
