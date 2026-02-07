@@ -2,8 +2,7 @@
 
 ![1](https://github.com/user-attachments/assets/841def8e-ebc0-48ce-bad5-fd8cac106d82)
 
-![2](https://github.com/user-attachments/assets/fc3890c8-0df0-4a20-b998-41c652e5cefc)
-
+<img width="1919" height="1079" alt="Pantaila-argazkia 2026-02-07 141922" src="https://github.com/user-attachments/assets/60293d6d-31aa-4547-80bb-5d8f3133f3b2" />
 
 Baldintzak:
 * 7-zip aplikazioa beharrezkoa
