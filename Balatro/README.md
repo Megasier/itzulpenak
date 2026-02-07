@@ -13,9 +13,10 @@ ________________________________________________________________________________
 
 Nola instalatu:
 1. "es_ES.lua" [jaitsi hemen klik eginez](https://downgit.github.io/#/home?url=https://github.com/Megasier/itzulpenak/blob/main/Balatro/es_ES.lua)
-2. Balatro instalatuta dagoen fitxategira joan
-3. Balatro.exe aplikazioa eskuin klikarekin arrastratu 7-zip aukera agertzeko
-4. "Localization" karpetan sartu
-5. Jaitsitako "es_ES.lua" hona sartu, eta dagoenarekin ordezkatu
+2. Karpeta deskonprimitu
+3. Balatro instalatuta dagoen fitxategira joan
+4. Balatro.exe aplikazioa eskuin klikarekin arrastratu 7-zip aukera agertzeko
+5. "Localization" karpetan sartu
+6. Jaitsitako "es_ES.lua" hona sartu, eta dagoenarekin ordezkatu
 
 ![ezgif-1b447a79f51e13](https://github.com/user-attachments/assets/c077e30a-5d0a-43e2-a52f-a8eb0e369ea1)
