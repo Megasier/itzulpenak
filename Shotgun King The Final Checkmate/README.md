@@ -6,7 +6,8 @@
 
 
 Nola instalatu
-1. euskara.txt [jaitsi hemen klik eginez](https://downgit.github.io/#/home?url=https://github.com/Megasier/itzulpenak/blob/main/Shotgun%20King%20The%20Final%20Checkmate/euskara.txt) 
-2. Shotgun King instalatutako karpetan "lang" izeneko karpeta bilatu
-3. Jaitsitako fitxategia hemen sartu
-4. Jokoaren aukeretan hizkuntza aldatu
+1. euskara.txt [jaitsi hemen klik eginez](https://downgit.github.io/#/home?url=https://github.com/Megasier/itzulpenak/blob/main/Shotgun%20King%20The%20Final%20Checkmate/euskara.txt)
+2. Karpeta deskonprimitu
+3. Shotgun King instalatutako karpetan "lang" izeneko karpeta bilatu
+4. Jaitsitako fitxategia hemen sartu
+5. Jokoaren aukeretan hizkuntza aldatu
