@@ -1,6 +1,6 @@
 ## Shotgun King euskaraz
 
-<img width="1919" height="1079" alt="Pantaila-argazkia 2026-02-07 130437" src="https://github.com/user-attachments/assets/bc2b75fd-318c-40e2-b57a-2a11574b5038" />
+<img width="1919" height="1079" alt="Pantaila-argazkia 2026-02-07 140059" src="https://github.com/user-attachments/assets/73c3b35e-4645-449d-9882-b00d0b853968" />
 
 <img width="1919" height="1079" alt="Pantaila-argazkia 2026-02-07 131406" src="https://github.com/user-attachments/assets/7db1bdb9-192e-4c07-bb19-039d01a84026" />
 
