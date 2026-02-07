@@ -6,7 +6,7 @@
 
 
 Nola instalatu
-1. euskara.txt [jaitsi hemen klik eginez] (https://drive.google.com/file/d/1-UiQ28_VYdXPBu8vGfT6A53fMkXbFxzc/view?usp=sharing) 
+1. euskara.txt [jaitsi hemen klik eginez](https://drive.google.com/file/d/1-UiQ28_VYdXPBu8vGfT6A53fMkXbFxzc/view?usp=sharing) 
 2. Shotgun King instalatutako karpetan "lang" izeneko karpeta bilatu
 3. Jaitsitako fitxategia hemen sartu
 4. Jokoaren aukeretan hizkuntza aldatu
