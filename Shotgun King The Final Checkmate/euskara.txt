@@ -1,0 +1,1304 @@
+font>>Terminus
+font_size>>12
+font_line_height>>12
+font_offset_y>>8
+
+	--   Please only ever modify the part to the right of '::'.
+
+	--   In all texts, '|' indicates a linebreak for the game.
+
+	--   The game replaces instances of $0, $1, etc with relevant numbers.
+
+	--   instances of (s) are replaced with an 's' if the number associated is above 1, otherwise it is simply removed. The following alternatives are supported: (you can still use (s) if relevant)
+	--   (es) for Spanish
+	--   (y) for Polish
+	--   (и) for Ukrainian
+	--   (n), (er) and (e) for German
+	--   Additionally if none of these are helpful you can set a word between braces to tell the game to replace it according to a specific pluralization rule you specified at the end of this file. For example instead of writing "$0 man(s)" which makes no sense, I would write "$0 [man]" and the game will know to replace it with either "man" or "men" (defined at the very end of this file) depending on whether $0 is replaced with a 1 or something above. Make sure to write the singular version of the word inside the braces.
+	--   Even more specific pluralization rules can be defined at the end of this file, including rules for specific numbers.
+	--   In all cases outside of percentages, all numbers can safely be assumed to be below 10. For unnumberred plurals, (eg: knight(s) get +2 HP) the game always uses the number 999 internally.
+
+
+	--   MENU
+	--   These are displayed on buttons in the game's various menus.
+play::Jokatu
+options::Ezarpenak
+codex::Kodex-a
+credits::Kredituak
+quit::Itxi
+back::Atzera
+resign::Amore eman
+start::Hasi
+	--   Appears in the pause menu while in the tutorial. Could be translated as "end tutorial".
+skip_tutorial::Tutoriala saltatu
+
+	--   This is shown on the titlescreen when using mouse and keyboard.
+click_start::Egin klik hasteko
+	--   This is shown on the titlescreen when using a controller.
+press_start::$0 sakatu hasteko
+
+
+	--   OPTIONS
+music::Musika
+sfx::Soinu efek.
+fullscren::Pant. osoa
+	--   CRT stands for Cathode-Ray Tube, it's the name of the effect that curves the screen and simulates "scanlines". Could be translated as "old monitor" or "screen effect" or just keep "CRT". Use something short.
+crt::CRT
+speedrun::«Speedrun»
+shields::Ezkutuak
+scr.shake::Astinduak
+scr.flash::Argikadak
+rumble::Dardarak
+	--   Language. Use something short enough to fit on the same button with your language's name.
+lang::Hizkuntza
+	--   Should be your language's name.
+lang_endonym::Euskara
+on::Bai
+off::Ez
+
+
+	--   GAMEMODE MENU
+	--   On gamemode selection screen, shows highscore for selected mode
+	--   eg: Best floor: 8
+	--   Note: the value after the colon is always a number in numerals
+best_floor::Solairu hoberena:
+best_score::Errekorra:
+best_rank::Maila altuena:
+best_time::Denbora hoberena:
+
+	--   The following describe each gamemode.
+throne_desc::Tronu modua|Gazteluko dorre nagusiko 12. solairura heldu tronua zurea egiteko
+endless_desc::Amaigabea|Amaierarik gabeko ziega bat igo eta atzera eginarazi Armada Zuria ahal duzun guztia
+chase_desc::Jazarpen modua|Gaztelu beltzetik ihes egin!|- Biziraun ahal duzun guztia|- Zaindariak etengabe agertzen dira ertzetatik|- Soldadutza aktibo dago, koroatzea ez |- Hildako errege bakoitzak karta beltz bat ematen dizu|- Soilik 5 karta izan dezakezu|- Munizio-kutxak hartu kargatzeko
+tutorial_desc::Tutoriala|Nola jokatzen den ikasi!
+
+	--   These are unlock conditions for gamemodes that are not available from the start.
+endless_lock::Tronu moduko edozein maila amaitu modu amaitezina desblokeatzeko
+chase_lock::Amaigabe moduko 15. solairura iristsi jazarpen modua desblokeatzeko
+
+	--   This is used for rank selection (=difficulty selection)
+rank::Maila
+
+	--   Used to confirm an action such as giving up or wiping the player's save
+ask_confirm::Ziur?
+
+
+	--   CODEX
+	--   The codex is the collection of cards the player has seen and used. The achievements also share this interface.
+	--   $0 is replaced with the actual progress percentage.
+ui_codex::Kodexa: $0%
+ui_achievements::Lorpenak: $0%
+
+	--   Played and love are stats about the cards. "played is shown as "Played:3" for example, and love as "Love: 50%". Love is the preference stat of picking this card over another when given the choice.
+codex_played::Jokatua
+codex_love::Maitasuna:
+
+	--   Here $0 is replaced with a list of cards that need to be in play before the selected card can appear for the first time. $1 is replaced with the card's name.
+codex_gather::Partida batean, $0 izan $1 agertzeko aukera izateko
+
+	--   Here $0 is replaced with one or multiple tags (eg: "leader or grenade") that need to be in play before the card can appear for the first time. And $1 is replaced with the card's name. Tags are essentially keywords associated with certain cards.
+codex_gather_tags::Partida batean, kartak $0 duten etiketekin izan $1 agertzeko aukera izateko
+
+	--   Used to list the tags associated with a card. Shown as "tags: [list of tags]"
+codex_tags::Etiketak
+
+	--   Shown as "Needs card: [Card name]", meaning the selected card needs this card to be in play before it can appear in game.
+codex_need_card::Beharrezko karta
+
+	--   Shown as "Needs tag: [tag]", meaning the selected card needs this tag to be in play before it can appear in game.
+codex_need_tag::Beharrezko etiketa
+	--   Shown as "Excludes tag: [tag]", meaning that while this card is in play, cards that have the denoted tag cannot appear.
+codex_exclude_tag::Etiketa galarazia
+
+	--   Shown on a button that resets the player's progress on discovering cards.
+codex_reset::Estatistikak berretsi
+
+	--   Show for cards that have secret conditions for appearing in game for the first time.
+codex_secret::Karta sekretua. Egoera zehatz batean agertzen da soilik
+
+
+	--   Here $0 and $1 are replaced with a number and a stat respectively. Indicates a condition for a card to appear for the first time.
+	--   Eg: This card needs at least 6 firepower to appear
+codex_need::Karta honek $0 $1 behar ditu gutxienez agertzeko
+
+
+	--   CARD TAGS
+	--   These are tags associated with different cards, as shown in the codex.
+	--   leader is for any card that affects white kings or whichever piece which has the crown
+tag_leader::Buruzagi
+
+	--   mission is for Undercover Mission and The Mole
+tag_mission::Misio
+
+	--   cloak is for any card that lets you get into stealth mode
+tag_cloak::Isiltasun
+
+	--   bleed is for any card that allows you to inflict bleeding
+tag_bleed::Odola
+
+	--   orb is for the Seer's Orb
+tag_orb::Orbe
+
+	--   jump is for cards which let you jump over pieces, inflicting them one damage (like Taunting Hop)
+tag_jump::Jauzi
+
+	--   grenade is for cards that give you explosive grenades
+tag_grenade::Granada
+
+		-- blade is for cards that allow you to slash at low-hp enemy pieces
+tag_blade::Ezpata
+
+
+	--   GAME MODE
+	--   These are gamemode names, used in the gamemode selection menu.
+	--   Tutorial is the tutorial, teaches the player how to play the game.
+	--   Throne is the main, campaign mode where the goal is to reclaim the black king's throne.
+	--   Endless is an arcade-style highscore-chasing mode, it goes on until you lose.
+	--   Chase is a survival mode where pieces comme continually from the sides of the checkboard until you lose.
+tutorial::Tutoriala
+throne::Tronua
+endless::Amaigabea
+chase::Jazarpena
+
+
+	--   INGAME
+	--   These are elements of the in-game interface, either shown are at all time or when relevent.
+
+	--   Floor is the current game level, eg: "Floor: 4"
+floor_::Solairua:
+
+	--   eg: "Score: 12"
+score_::Puntuazioa:
+
+	--   Shown on selected pieces that are poisoned, as: "Poison|[number of turns until not poisoned anymore]". Poison makes pieces go slower.
+poison::Pozoia
+
+	--   The following need to be very short to fit the space to the left of the checkboard. Use no more than 8 characters. Prefer 7 or less. Feel free to use abreviations.
+	--   short version of firepower
+power::Su ahal.
+
+	--   short version of range
+range::Irismen
+
+	--   short version of fire arc
+f_arc::Disperts.
+
+	--   short version of knockback (percentage of chance to push pieces backwards when they're hit)
+knock::Atzerakada
+
+	--   short version of pierce (percentage of chance that bullets will not stop after hitting a first target)
+pierc::ZulaketaS.
+
+	--   short version of blade/sword/cutting (ability to cut down pieces that have low-enough health)
+blade::Ezpata
+
+	--   short version of fright/scariness/terror (radius in which killing a piece will scare other pieces)
+fright::Beldurra
+
+	--   short version of jump (number of times you can jump over other pieces before ending your turn)
+jump::Jauzi
+
+	--   Current turn, eg: "Turn: 13"
+turn_::Txanda:
+
+	--   Displayed when the player is pressing "shift" to ignore folly shields (which prevent you from putting yourself in a gameover position)
+unsafe_mode::Arrisku modua
+
+	--   Shown at the bottom of the screen when losing because of a classic chess checkmate
+checkmate::Xake-mate!
+
+	--   Shown after the gameover to ask if the player wants to restart.
+try_again::Berriro saiatu?
+	--   Yes//No buttons
+yes::Bai
+no::Ez
+
+	--   Used in endless mode past level 11. Instead of getting new cards, the white army is improved with one of these effects at random: (in piece_join, $0 is the replaced with the name of a piece, eg: "A knight joins the white army")
+blood_bowl::Odol kaikua|Pieza zuri guztiak +1BP lortzen dute
+pawns_join::Bi peoi Armada Zurira gehitzen dira
+piece_join::$0 bat Armada Zurira gehitzen da
+
+	--   Shown when hovering the mouse cursor on wands. Wands are magic abilities the player can have.
+click_to_use::Egin klik erabiltzeko
+
+	--   Shown instead when using a controller.
+press_to_use::$0 sakatu erabiltzeko
+
+	--   Shown on wands that have already been used this floor.
+replenish_floor::Hurrengo solairuan berrizten da
+
+	--   Folly shields descriptor, shown on hovering folly shields below the shotgun. They automatically protect you from making moves that would lead you to your immediate death, consuming one shield every time.
+folly_shield::Zentzugabekeriaren ezkutuak|Zure sen suizidetatik babesten zaituzte|Txanda bakoitzean berreskuratzen dira
+
+	--   Shown on hovering a piece's soul, placed at the right of the checkboard after killing a noble piece. (knight, rook, bishop or queen) $0 is replaced with the piece's name.
+soul_desc::$0 arima|$0 bat bezala mugitzeko erabili
+
+	--   Used when playing with a controller. $1 is replaced with a button name.
+soul_desc_console::$0 arima|$1 sakatu $0 bat bezala mugitzeko erabili
+
+	--   This is added below soul_desc when Sacred Crown is in play.
+crow_turn::eta gero beste txanda bat jokatu
+
+	--   This is shown instead of soul_desc when the soul slot is empty. Killing a noble piece will fill this slot with its soul.
+soul_slot::Arima-tokia|Pieza bat akabatu bere arima lapurtzeko
+
+	--   These are shown specifically on pawn souls, which can be obtained with the card "Cannon Fodder". $0 is always replaced with the translation for "Pawn".
+pawn_soul_desc::$0 arima|Erabil ezazu +2 su ahalmen lorzteko hurrengo tiroan
+pawn_soul_desc_console::$0 arima|Sakatu $1 +2 su ahalmen lorzteko hurrengo tiroan
+
+	--   This is shown when trying to reload your shotgun but it's already loaded.
+already_loaded::Eskopeta kargatua dago!
+
+	--   This is shown when attempting to use the Wand of Wrath but there's no valid target for it.
+not_target_wrath::Ez daude Haserrearentzako baliozko jomugarik!
+
+	--   This is shown when attempting to use the Wand of Wings but no move is possible.
+cant_move::Ezin zara mugitu!
+
+	--   This shown when hovering on the shotgun at the top of the screen. $0 is replaced with a number of shells, and $1s is replaced with the translation for "shell". It is pluralized automatically when relevant. (look to the bottom of this file to define specific pluralization rules)
+reload_shotgun_desc::Egin klik $1 $0 eskopetan kargatzeko
+
+	--   Used in the previous line.
+shell::kartutxo
+
+	--   Player has lost.
+game_over::Partida amaitua
+
+	--   Shown at the bottom of the screen when trying to reload or use abilities but it's not possible.
+no_ammo_left::Kartutxorik gabe
+no_shell_loaded::Kargatu eskopeta
+no_grenade_left::Granada gabe
+	--   Only one grenade can be thrown per turn.
+one_grenade_per_turn::Granada bakarra txandako
+	--   Scope is one of the abilities.
+scope_on::Mira teleskopikoa aktibatuta dago
+
+	--   Shown when a card is inactive. (not necessarily used up) $0 is replaced with with one of the next two lines.
+card_exhausted::Karta hau desgaituta dago. $0 bergaituko da
+refresh_when::Hurrengo solairuan
+	--   ammo boxes have to be reached and picked up on the checkboard.
+refresh_when_chase::Munizio kutxa bat lortzean
+
+	--   Shwon when a card is temporarily inactive because of a condition stated in the card's description. $0 is replaced with one of the keys under "CONDITIONS" further down in this file.
+	--   eg: the High Focus card will deactivate "because a piece is adjacent to you".
+card_exhausted_bc::Karta hau desgaitzen da $0 
+
+	--   Show at the bottom of the screen during the animation where the heir is chosen at the start of a floor.
+hiding_heir::Ocultando heredero
+
+	--   Shown above the soul slots to the right of the checkboard
+souls::Arimak
+
+	--   Used with angles. eg: "Fire arc: +30°"
+degree_symbol::°
+
+	--   Used when unlocking a new shotgun or a new rank, or completing an achievement. $0 is replaced with the name of the shotgun/rank/achievement.
+unlocked::$0 desblokeatu duzu!
+
+	--   Used on the disrupt menu which lets you disrupt the white side with a negative effect.
+choose_disrupt::Sabotaje bat aukeratu
+
+	--   Shown at the bottom of the screen when the countdown is on and the player has to finish the floor in a number of turns.
+	--   Shown as "final countdown:[turns remaining]"
+final_countdown::Erlojupeko
+
+	--   Used when there's no possible target/victim for an ability the player is trying to use.
+no_valid_target::Ez dago baliozko helbururik
+
+	--   Select a piece as target for an ability
+select_a_piece::Pieza bat aukeratu
+
+	--   Used with the Wand of Wings which lets you move further away from your position.
+choose_destination::Lauki bat aukeratu
+
+
+		-- NEW!
+		-- Shown at the bottom of the screen when two pieces swap positions.
+swap::Aldaketa!
+
+		-- Shown at the bottom of the screen in a very specific situation where the King's Look-Alike false king is revealed and subsequently becomes the real king, because the real king was removed when sabotaging the King's Look-Alike with a disruption effect.
+crowning::Koroazioa
+
+		-- Not used currently but would be used at the bottom of the screen when giving the player free random souls
+free_soul::Doako arima!
+
+		-- Shown at the bottom of the screen during the sabotage disruption effect
+select_white_card::Karta zuri bat aukeratu
+
+		-- Shown at the bottom of the screen when using the card Bold Plan
+replace_white_card::Edozein karta zuri ordezkatu
+
+
+
+		--   LEVEL_UP
+choose_set::Karta talde bat aukeratu
+
+	--   Used for a specific menu that allows you to choose one card among all possible cards.
+choose_any_card::Karta bat aukeratu
+
+
+	--   EMOTES
+	--   These are shown over the head of white pieces, or of the black king, in specific situations.
+
+	--   Used when a pawn promotes to another piece.
+promote::Promozioa
+
+	--   Used when a knight protects the white king, making it impossible to kill the latter.
+knight_guard::Guardia
+
+	--   Used when the white king and a rook swap positions. Refers to the "Castle" move in classic chess.
+castle::Endrokea
+
+	--   Used when white pieces arrive sometime after the floor started.
+backup::Sorospenak
+
+	--   Used when white pieces don't receive full damage because they are close to a piece that protects them. eg: rooks with the Cathedral card.
+cover::Babesa
+
+	--   The heir pawn is being promoted to king
+heir_promote::Oinordea!
+
+	--   Used to describe some card unlocks, eg: "This card needs at least 1 Heir to appear"
+heir::Oinordea
+
+	--   Used to describe some card unlocks, same as heir.
+spy::Espia
+
+		-- Used to describe some card unlocks.
+soul::arima(k)
+
+
+	--   The player has found the spy in the white army, allowing them to disrupt the white side.
+meet_spy::Bilera sekretua!
+
+	--   The player can take another action.
+extra_turn::Extra txanda 
+
+	--   Used when disguising as a pawn with the card Low-Cost Disguise.
+disguised::Mozorratua!
+
+	--   Used when the player leaves stealth mode because they exposed themselves.
+visible::Ikusgai!
+
+	--   Used when the white army disables a mission waypoint with the "investigate" card effect. The "mission" normally allows you to disrupt the white side when completed.
+abort_mission::Misio eragotzia!
+
+	--   Used when the white army finds and kills the spy in their ranks with the "investigate" card effect.
+spy_executed::Espia akabatua!
+
+	--   Used on the white king when he gets hit and it promotes the nearest pawn with the "Emergency Call" card.
+help::Laguntza!
+
+	--   Used when shooting the white king's look-alike, revealing them for a knight instead.
+usurper::Iruzurti!
+
+
+	--   BOSS LINES (also emotes)
+	--   This is used for a secret boss. The black bishop cries "Justice!" (for all the evil the black king has done) before fighting the black king.
+black_bishop_warcry::Justizia!
+
+	--   The following two lines are used for a secret boss: after the big white king dies, the iron queen grows tentacles and speaks these two lines. Then you have to fight her.
+	--   It has to be two lines, they should be relatively short.
+come_to_me::Etorri,
+my_love::maitea
+
+	--   These are used for a secret boss. They are the names of the four horsemen of the apocalypse. Please make sure to translate the correct names.
+apo_name_0::Plaga
+apo_name_1::Guda
+apo_name_2::Gosea
+apo_name_3::Heriotz
+
+	--   The following five lines are used for a secret ending where the four horsemen of the apocalypse show up, but the shotgun king takes the fourth horse and kills the other 3 horsemen before leaving the screen.
+	--   It has to be five lines, they are shown one after the other, and they should be relatively short.
+apo_threat_0::Ez
+apo_threat_1::zirikatu
+apo_threat_2::Errege
+apo_threat_3::Eskopetariari!
+apo_threat_4::Makurtu
+
+	--   Used in a secret event where the white king gets disabled and their usurper knight becomes king instead.
+	--   Has to be 3 lines, they are shown in succession, they should be relatively short.
+power_people_0::Boterea
+power_people_1::herriarentzat
+power_people_2::da!
+
+
+	--   PIECES
+	--   These are used in card descriptions and other interface elements.
+piece_0::Peoi
+piece_1::Zaldun
+piece_2::Alfil
+piece_3::Dorre
+piece_4::Erregina
+piece_5::Errege
+piece_6::Nagusi
+piece_7::Pieza guztiak
+	--   Please keep piece_8 as "$leader", it is automatically replaced with your translation for the piece that currently has the crown in the game. (usually the king but not always)
+piece_8::$leader
+
+
+	--   SHORT PIECE
+	--   These are used on the panel to the left of the checkboard when inspecting a white piece. Space is limited, please only use 7 characters or fewer for each.
+short_piece_0::Peoia
+short_piece_1::Zalduna
+short_piece_2::Alfila
+short_piece_3::Dorrea
+short_piece_4::Erregina
+short_piece_5::Erregea
+	--   Boss is used for the big white king on the last level of Throne mode.
+short_piece_6::Nagusi
+	--   Blight is the name for the secret queen boss. The point is simply that she's scary, feel free to use whatever conveys that and fits the space constraint.
+short_piece_10::Izurri
+	--   Rider is shown for the secret horsemen of the apocalypse bosses. Ideally should be different to the name for knights, you can also use a word/abreviation for "apocalypse" instead.
+short_piece_11::Zaldun
+
+
+	--   CARD NAMES
+	--   These are the names for the black cards. The idea is to use a lot of adjectives belonging to the lexicons of royalty and self-importance.
+	--   If you have doubts on the meaning we were going for, please refer to the codex in-game to see the card's appearance and description. If that is not sufficient, feel free to message me and ask directly.
+
+Ermine Belt::Erbinude gerrikoa
+Elite Gem::Eliteko harribitxia
+Extra Barrel::Kanoi gehiago
+Royal Loafers::Berotasun oinetakoak
+Majestic Censer::Majestate intsentsua
+Sacred Crown::Koro sakratua
+Blunderbuss::Trabuko
+Engraved Scope::Mira teleskopikoa
+Holy Gunpowder::Bolbora sakratua
+Ritual Dagger::Erritu daga
+August Presence::Itzelazko egotea
+Crow's Blessing::Belearen onezpena
+The Moat::Zuloa
+Rightful Curtsy::Merezizko agurra
+Wand of Downpour::Zaparrada Hagaxka
+Wand of Frenzy::Frenesi Hagaxka
+Wand of Wrath::Haserre Hagaxka
+Wand of Wings::Hego Hagaxka
+Wand of Gust::Haize Hagaxla
+Wand of Hypnosis::Hipnosi Hagaxka
+Kingdom Wealth::Erreinuko oparotasuna
+Gradual Absolution::Pixkanakako absoluzioa
+Taunting Hop::Akrobazia jauzia
+Unfaithful Steed::Pottoka desleiala
+Unjust Decree::Bidegabeko dekretua
+Kingly Alms::Errege limosna
+Subtle Poison::Pozoin zorrotza
+Small Fry Harvest::Peoi bilketa
+A Piercing Truth::Egi zulakorra
+Black Mist::Laino beltza
+King's Shoulders::Erregearen sorbalda
+High Focus::Arreta handia
+Courteous Jousting::Justizia adeitsua
+Cornered Despot::Izkinatutako despota
+Sawed-off Justice::Ebakitutako juztizia
+Welcome Gift::Ongietorri oparia
+Cannon Fodder::Kanoi-bazka
+Possessed::Deabrututa
+Philanthropy::Filantropia
+Imperial Shot Put::Inperioko pisu-jaurtiketa
+Egotic Maelstrom::Zurrunbilo berekoia
+Church Organ::Elizako organoa
+Black Plague::Izurrite beltza
+Ravenous Rats::Arratoi jatunak
+Deep Water::Ur sakonak
+Unholy Call::Lotsagabeko deia
+Undercover Mission::Ezkutuko misioa
+Caltrops::Sasiak
+Nightbane::Gaueko hondamendia
+Bushido::Bushido
+Bloodless Coups::Matxinada odolgabea
+Presbyopia::Presbizia
+Golden Aging::Urrezko zahartzea
+Fool Companion::Kide inozoa
+Force-feeding::Behartuzko elikadura
+Seer's Orb::Igarle bola
+Fearsome::Beldurgarri
+Human Shield::Giza-ezkutua
+Reign of Terror::Laztura erresuma
+Monarch's Confidence::Erregearen konfidantza
+The Mole::Satorra
+Elusive::Saihesle
+Holoking::Errege-grama
+Cloaking Device::Isiltasun tramankulua
+Low-Cost Disguise::Mozorro merkea
+Wand of Souls::Arima Hagaxka
+Wand of Execution::Hilarazte Hagaxka
+Patience::Pazientzia
+Bold Plan::Plan ausarta
+Silencer::Isilarazle
+Ambush::Amarrua
+Ancient Flagstone::Antzinako harlauza 
+Tearing Bullets::Drai lazgarriak
+Indelible Memories::Oroimen ezabagaitza
+Mystic Shackles::Bilur mistikoak
+Secret Move::Mugimendu sekretua
+Sacred Light::Argi sakratua
+Workshop::Lantegi
+Selective Listening::Entzumen selektiboa
+
+	--   Next are the names for the white cards. There's no specific direction here apart from sticking to medieval vocabulary and tropes, with some unavoidable but usually funny exceptions.
+Backups::Errefortzuak
+Cavalry::Zalditeria
+Conclave::Konklabe
+Entitle::Titulazioa
+Cardinal::Kardinal
+Remparts::Harresiak
+Pillage::Lapurreta
+Crusades::Gurutzada
+Peace::Bakea
+King's Mistress::Erregearen maitalea
+Revolution::Iraultza
+Bodyguard::Bizkarzaina
+Ruins::Erorkinak
+Assault::Erasoa
+Kite Shield::Kometa ezkutua
+Zealots::Gogotsuak
+Militia::Soldadutza
+Ammunition Depot::Bolboretxe
+Scouting::Miaketa
+Pikemen::Lantzariak
+Ascension::Igoera
+Castle::Endroke
+Conscription::Errekrutatze
+Theocracy::Teokrazia
+Iron Maiden::Burdinezko erregina
+Court of the King::Erregearen gortea
+The Red Book::Liburu gorria
+Homecoming::Itzulera
+Overthrown Theocracy::Teokrazia eraitsia
+Saboteur::Sabotatzailea
+Lookout Tower::Zaintza-dorrea
+Throne Room::Tronuaren aretoa
+The Secret Heir::Oinorde sekretua
+	--   If you're afraid "Drag Queen" won't be understood in your culture, you can go for something else related to queer or transgender rights. Do not use slurs and try to keep it positive please.
+Genderqueer::Drag Queen
+Karma::Karma
+Undead Armies::Hildako bizidunen armada
+Shortage::Urritasuna
+Succubus::Sucuboa
+Bunker::Bunkerra
+Sanctity::Santutasun
+	--   This card makes knights ethereal/ghost-like. Could be translated to something along the lines of Spectral Cavalry if there's no way to translate the Knightmare pun.
+Knightmare::Amesgaizto ibiltaria
+Highest Dungeon::Goimailako mazmorra
+Cathedral::Katedrala
+The Bridge::Zubia
+Divine Healing::Jainkozko sendaketa
+Last Guardian::Azken zaindaria
+Trowel::Paleta
+Full Plate Armor::Gorputz osoko armadura
+Military Academy::Akademia militarra
+Witch's Curse::Sorginaren madarikazioa
+Saddle::Zelatxo
+The Jester::Bufoia
+Guillotine::Gillotina
+Analysis Paralysis::Analisiaren paralisia
+Plumed Knight::Lumadun zalduna
+Emergency Call::Larrialdi deia
+Mangonel::Mangana
+Governess::Gobernanta
+Mausoleum::Mausoleo
+Reverend Mother::Ama gorena
+Sokoban::Arduraduna
+Tag Team::Bikote borroka
+Unicorn::Adarbakarra
+Lady in the Tower::Dorreko andrea
+Final Countdown::Erlojukontra
+	--   Can be translated as Nomadism. Please do not use potentially offensive terms.
+Nomad Life::Nomada
+Prison::Espetxe
+Inquisition::Inkisizio
+King's Look-alike::Erregearen doblea
+The Royal Hunt::Errege-ehiza
+Tragic Homecoming::Zorigaitzeko itzulera
+	--   Limos (or Limus in latin, take your pick) is the name of the third Horseman of the Apocalypse, the one wearing the shield (/buckler) in the secret boss version of the horsemen in the game. This card gives the shield to the white king, protecting him to some extent. The Limos reference doesn't have to be kept if you can find a better name for that card in your language.
+Buckler of Limos::Limus-en erredola
+Vampirism::Banpirismo
+Commoner's Reign::Plebeio agintaritza
+Bouncy Castle::Gaztelu zaltokaria
+Fallen Dynasty::Dinastia galdua
+Self-Defense::Defentsa pertsonala
+Unsettled Throne::Tronu ezegonkorra
+
+
+	--   CARDS DYNAMIC
+	--   These are used to describe card effects.
+
+	--   $0 is replaced with a number (usually 1 or 2) and $1s is replaced with a piece name, pluralized accordingly with the number.
+	--   eg: Remove 2 pawns
+rem_piece::Kendu $1 $0.
+
+	--   Same thing but $delay is replaced with either the at_delay key below, or the every_x_turn.
+	--   eg: Add 2 bishops after 10 turns
+	--   eg: Add 1 pawn every 4 turns
+add_piece::Gehitu $1 $0 $delay.
+
+	--   Same but without the delay.
+	--   eg: Add 2 knights
+add_piece_nodelay::Gehitu $1 $0.
+
+	--   Used with add_piece. Also used under this form: "after/every N turns: [other effect]". $0 is replaced with a number.
+at_delay::$0 txanda ondoren
+every_x_turn::$0 txanda bakoitzeko
+
+	--   The following are the name of different stats as used in other card effects.
+ammo_max::Munizio max.
+grenades_max::Granada(k)
+ammo_regen::Munizio berreskurapena
+firepower::Su ahalmena
+firerange::Irismena
+chamber_max::Kanoia(k)
+pierce::Zulaketa
+spread::Dispertsioa
+	--   "Search" as in "Looking for something". The search stat lets you reroll card choices N times. Can also translate as "Reroll" if it makes more sense in your language.
+search::Bilaketa
+knockback::Atzerakada
+hp::BP
+
+
+	--   Special descriptions for the Homecoming card, which always appears on the third level-up.
+queen_escape::Ezin duzu ihes egin...
+queen_everywhere::...Leku guztietan dago!
+
+	--   Even more special descriptions for when you try to reroll the Homecoming card.
+queen_escape_tragic::Hobe saiatu ez bazina...
+queen_everywhere_tragic::... haserrarazi zatzaizkio!
+
+	--   Used to describe conditions under which a card deactivates. $0 is replaced with one of the conditions under CONDITIONS further below.
+flip_if::Eman buelta kartari $0
+
+	--   Used to denote a group of pieces in effect descriptions. Is used to replace some instances of <pieces>.
+	--   eg with effect_prison: Knights and bishops can't move or attack if near a rook.
+and::eta
+
+	--   Actually used in the codex to specify multiple possible tags that can let a card appear.
+	--   eg: While playing a game gather cards with the tag mission or cloak to have a chance to make Inquisition appear
+	--   Please keep the whitespaces on both sides of your translation of "or" if your language uses whitespaces.
+_or_:: edo  
+
+	--   Used when an effect is limited to a square color. $1 is replaced with the effect, and $0 with the color as written just below.
+	--   eg: -1 firepower on white squares
+standing::$1 lauki $0 egonez gero.
+white::zurietan
+black::beltzetan
+
+
+	--   Specific effects
+	--   $0 is replaced with a number
+	--   $1 is replaced with a signed number (a positive number will be preceded by a + sign)
+	--   <inc> is also replaced with a signed number
+	--   $leader is replaced with the name of the piece which currently wears the crown. Normally "king" but can be "bishop" in case of theocracy for exemple.
+	--   <piece> is replaced with a piece name.
+	--   <target_piece> is also replaced with a piece name.
+	--   <pieces> is replaced with a pluralized piece name or with a group of pieces using the 'and' key. Then also piece names are pluralized.
+
+effect_ammo_max::munizio maximoa $1.
+effect_grenades_max::granada(k) $1.
+effect_ammo_regen::Munizio berreskurapena $1.
+
+effect_chamber_max::Kartutxo $0 gehiago kargatu zure eskopetan.
+effect_soul_slot::Arima-toki $0 gehitu.
+effect_soul_sink::Arima-toki 1 kendu.
+effect_crown::Txanda bat gehiago jokatu arima karta bat erabili ondoren.
+effect_presence::Erregea izan ezik, inor egon daiteke zure alboan egon.
+effect_moat::Zaldunak izan ezik, inor ezin du zuloa zeharkatu txanda bakarrean.
+effect_hp::<piece>: <inc> BP.
+effect_hprc::<piece>: $0 % BP.
+effect_tempo::<piece>: Abiadura <inc> .
+effect_shell::Kartutxo $0 lortu <piece> bat akabatzen duzun bakoitzean.
+effect_poison::<piece>en mugimendua: Lauki 1 $0 txandaz.
+effect_cage::<piece>en mugimendua lauki $0era mugatuta dago.
+effect_shield::<piece>ek tiro bat blokeatzen duten ezkutu bat dute.
+effect_flying::<piece>ak mugitu eta eraso dezakete beste piezak aurrean egon arren.
+effect_castle::$leaderak <piece> batekin lekualdaketa egiten du BPren bat galdu baino lehen.
+effect_iron::<piece>ak ezin dira akabatu.
+effect_orth::<piece>ak ortogonalki mugitu dezakete, baina erasorik egin gabe.
+effect_joust::<puece> bat akabatzean, txanda bat gehiago jokatu.
+effect_recoil::Su egitean, atzera egiten duzu.
+effect_firepower::Su ahalmena: $1.
+effect_firerange::Irismena: $1.
+effect_pawnreap::Peoien arimak erabili +2 su ahalmen lortzeko hurrengo tiroan.
+effect_freegren::Txandaz behin, erabili granada bat zure txanda amaitu gabe.
+effect_grenade_dmg::Granadak: Su-ahalmena $1.
+effect_sanctity::<pieces>en arimak ezin dira lapurtu.
+effect_plague::Txanda bukaera bakoitzean, ausazko pieza batek BP 1 galtzen du.
+effect_rats::Pieza bat hiltzen denean, arratoi bat agertu eta gertuen dagoen pieza koskatzen du, BP 1 kenduz.
+effect_deepwater::Zuloan dauden piezak ezin dute eraso egin.
+effect_pentagrams::$0 pentagrama sartu taulan. Zapal ezazu txanda extra lortzeko. Zapaldu guztiak +2 su ahalmen lortzeko.
+effect_waypoint::Markatutako lekura heltzean, oztopo efektu bat aukeratu eta txanda extra bat lortu.
+effect_blade::Espata: $1.
+effect_blade_console::Ezpata: $1 BP gehiago kendu.
+effect_blade_old::Zure ondoan dauden piezak akabatu zure ezpataren ahalmena edo BP gutxuago badute.
+effect_bushido::Txandaz behin, pieza bat akabatu ezpatarekin zure txanda amaitu gabe.
+effect_peace::<piece>ek ezin dizute erasorik egin.
+effect_minr::<piece>ek ezin dute erasorik egin $0 lauki edo gutxiagora ez badaude.
+effect_carry::<piece>ek dorreak edo zaldunak ez diren piezak garraiatu dezakete mugitzean.
+effect_nocarry::<piece>ek ezin dira garraiatu beste piezengatik.
+	--   for free = without spending the turn
+effect_freelift::<piece>ak hartu eta bota ahal dira txanda bukatu gabe.
+effect_jester_guard::Bufoiak edozein norabidean mugitu daitezkete eta $leadera jarraitzen dute. Txanda extra bat lortu bufoia akabatzean.
+effect_bodyguard::Ezin da $leadera akabatu $0en bat bizirik badago.
+effect_knockback::Etsaiak atzera botatzeko zoria +%$1.
+	--   here the second $ is replaced with the degree_symbol key.
+effect_spread::Dispertsioa: $1$.
+effect_absolution::Su ahalmena $1 arima toki huts bakoitzeko.
+effect_hop::Jazia: $1 (alboko pieza baten gainetik egin salto txanda amaitu gabe).
+effect_steed::Mugimendua: +1 lauki.
+effect_pierce::Zure jaurtigaiek %$0ko probabilitatea daukate piezak zulatzeko.
+effect_mist::Solairuz behin, xake-mate batetik babesten zaitu.
+effect_grab::Solairuz behin, alboan daukazun pieza bat arrastratu zure erregearengana hau hartu eta botatzeko.
+effect_grab_console::Solairuz behin, arrastratu alboko pieza bat eta bota edozein norabidean.
+effect_assault::<piece>ak 2 lauki mugitu dezakete lehen mugimenduan.
+effect_militia::Peoiak eraso eta mugi dezateke 4 norabideetan.
+effect_bad_shells::Jaurtigai $0(r)en dispertsioa bikoizten du.
+effect_heir::Oinordea: $1.| (Oinorde sekretuak erregea ordezkatzen du hiltzen bada).
+effect_nothing::Aldaketarik gabe.
+effect_wraith::<piece>ak BPak galdu dezakete soilik mugitu aurretik.
+effect_manual_reload::Kartutxo bakarra kargatu txanda bakoitzeko.
+	--   <pieces> and <piece> are not necessarily the same piece type.
+effect_protect::<pieces>ak izan ezik, <pieces>en alboan dauden piezak ezin dute BP 2 baino gehiago galdu txanda bakoitzeko.
+effect_bridge::Egin zubi bat zuloan.
+effect_healer::<piece>ek gertuko piezak sendatu dezakete mugitu beharrean.
+	--   the last one = the last one alive/remaining
+effect_lastg::<piece> bat hiltzean, beste <piece> bat koroatu hau azkena bada.
+effect_curse::Buelta eman karta honi <piece> bat hiltzen bada.
+effect_jester::Bufoiak diagonalki mugitu daitezkete eta +2 abiadura daukate. Hiltzean, kapela beste peoi bati ematen dute.
+effect_free_souls::Solairu hasiera bakoitzean, ausazko $0 arima lortu.
+effect_plumed::<piece> batek +3 BP irabazi eta diagonalki erasotzeko gaitasuna lortzen du.
+effect_emergency::<piece> batek BPren bat galtzen duen lehenengo aldian, abiadura +1 lortu eta gertueneko peoia koroatzea da.
+effect_despair::<piece> bat hiltzen denean, beste guztiak koldartzen dira. Ez dute erasorik egingo eta beraien hurrengo mugimendua ihes egiteko izango da.
+effect_force_promote::Peoiek beti <target_pieces> bezala koroatzen dira.
+effect_leaderbond::<piece> bat hiltzen denean, $leaderak $0 BP galtzen ditu.
+effect_fearsome::Beldur irismena +1.|Peoia ez den pieza bat akabatzean, beldur irismen barruan dauden piezak koldartzen. Ez dute erasorik egingo eta beraien hurrengo mugimendua ihes egiteko izango da.
+effect_humanshield::Beldurra peoiak hiltzean ere eragiten da.
+effect_terrorism::Beldurra akabatutako piezen inguruan ere zabaltzen da.
+effect_search::Bilaketa:$1.
+effect_tactic::Armada zuriak ezin ditu mugitu pieza mota $0  baino gehiago txanda bakoitzean.
+effect_confidence::Su ahalmena +1 kargatzeko falta den kartutxo bakoizeko.
+effect_spy::Espia peoien artean +1.|Espiarekin bildu sabotaje bat aukeratzeko eta txanda bat gehiago jokatzeko.
+effect_push::<piece>ek aurrera bultzatu dezakete beste piezak $0 aldiz gehienez.
+effect_swap::<piece>ek lekualdaketa egin dezakete <target_piece>ekin.
+	--   can charge your king = can run towards your king (this is used for the Unicorn card, which lets knights ram you down)
+effect_charge::<piece>ek, mugitu beharrean, zure erregea lerro zuzenean erasotu eta lauki bat bultzatu dezakete.
+	--   white pieces ready to move = about to move
+effect_elusive::Mugitzeko prest dauden piezak ezin dute erasorik egin.
+	--   a piece that would kill you instead gets promoted to a queen
+effect_killprom::<piece>ak erregin moduan koroatzen dira zure erregea akabatu beharrean.
+effect_holoking::Arima bat erabiltzean, holograma bat sortu.
+effect_holocloak::Holograma bat sortzean, isiltasun moduan sartzen zara 6 txandaz.
+effect_holoreveal::Holograma suntsitzen bada, isiltasun modutik ateratzen zara.
+effect_catapult::<piece>ek jaurtigai bat bota dezakete mugitu beharrean.
+	--   a countdown starts when there are only 6 pieces left. If you don't end the floor within the countdown, you die.
+effect_deathcount::$0 txanda dauzkazu azken 6 piezak akabatzeko.
+effect_disguise::<piece> bat akabatzean, isiltasun moduan sartzen zara txanda $0(e)z.
+effect_promote::<piece>ak koroatu dezateke taulako beste aldera heltzean.
+effect_bully::Su ahalmena -1 xake eragiten ari dizun <piece> bakoitzeko.
+effect_investigate::<piece>ek ageriko espiak exekutau eta misioak ezezten dituzte.
+effect_false_king::Erregearen ordezkoa BPrik galtzean, zaldun batez ordezkatu.
+effect_full_firerange::Irismena $1 eskopeta guztiz kargatuta badago.
+effect_full_firepower::Su ahalmena $1 eskopeta guztiz kargatuta badago.
+	--   browse the entire deck and pick your card the next time you're getting a black card
+effect_browse::Aukeratu nahi duzun edozein karta beltza.
+effect_replace_white_card::Aldatu karta zuri bat beste batekin.
+effect_pike::<piece>ek aurreko bi laukiak erasotu dezakete.
+effect_reformed::<piece>ek ezin dute beraien ohiko erasoa.
+effect_armorgap::<piece>ek ezin dute $0 BP edo gehiago galdu txanda batean.
+effect_bow::<piece>ek geziak bota diezazukete.|Tiro abiadura +1.
+	--   fire = shoot your shotgun
+effect_silencer::Isiltasun moduan egon arren, tiro egin modutik atera gabe.
+effect_prison::Las piezas de tipo <piece> no pueden moverse ni atacar si están cerca de 1 <target_piece>.
+effect_knockweak::<piece>ek bultzatuak izateko %50ko probabilitate gehiago daukate.
+effect_flagstones::Harlauza +$0.|Harlauzara mugitu edozein unean.
+effect_uncover::<piece>ek erasotu zaitzakete isiltasun moduan egon arren.
+effect_tearing::Jaurtigaiak jasan dituzten piezak odoljarioan daude. (BPren bat galtzean, beste BP extra bat galtzen dute).
+effect_bleed_slow::Abiadura -1 odoljarioan dauden piezei.
+effect_caltrops::Odoljarioa sorrarazteko probabilitatea +%$0 mugitzen ari diren piezei.|(BPren bat galtzean, beste BP extra bat galtzen dute).
+effect_grenade_center_dmg::Su ahalmena $1 granadan dagoen laukian.
+effect_grenade_bleed::Granadak odoljarioa sorrararazi dezakete .|(BPren bat galtzean, beste BP extra bat galtzen dute).
+effect_vampire::<piece>ak ez dute odoljariorik sufritzen.|<piece>ak BPak berreskuratzen dituzte odoljarioan dauden piezak ondoan badaude eta hauei odoljarioa kentzen diete.
+effect_rep::<piece>ak hiltzean, <target_piece> batez ordezkatu.
+	-- orb = Seer's Orb, special ability that lets you place an orb over a piece to know its next move
+effect_shackles::Orbearen azpian dagoen pieza ezin du mugimenduz aldatu eta abiadura -1 du.
+effect_ruler::<target_piece> guztiak hiltzen badira, irabazten duzu.
+effect_hop_dmg::Jauzi zauria: $1.
+	--   use up all your jumps available in a turn
+effect_botte::Jauzi indarra erabili hurrego tiroaren su-ahalmena handiagotzeko.
+effect_fitness::<piece>ak zaldunak bezala mugitu daitezkete (erasorik egin gabe).
+effect_grenade_proof::Granadak ez dizute ezer egiten.
+effect_grenade_stun::Granadak $0 txandaz zorabiatzen dute.
+effect_trampoline::Taulatik erortzen diren piezak sendatuta itzultzen dira.|Granadak gehiago errebotatzen dute.
+	--   Replaces Theocracy and Hippocracy descriptions on the boss level, where you have to beat the big white king instead. Royalty shall prevail = royalty shall have the last word = royalty was fated to make a comeback
+effect_fallen::Orain dela denbora asko gobernatu zuten…|Baina erregetzak gailendu behar du.
+	--   Produce = generate. Used with every_x_turn key
+	--   eg: Every 10 turns: Produce 1 grenade
+effect_mk_grenades::Granada $0 sortu.
+effect_mk_ammo::Kartutxo $0 sortu.
+effect_heirprom::Oinordeak errege moduan koroatzen dira.
+effect_freereload::Pieza bat akabatzean, eskopeta kargatu.
+effect_overload::Kargatzean mugitu gabe, kartutxo bat gehiago sartu dezakezu beteta egon arren.
+effect_delay_mult::Errefortzu guztiak %$0 txanda gehiago behar dute.
+effect_paralysis::Ezin duzu jokatu $0 txandaz edo xake egiten dizuten arte.
+effect_cannonball::Kanoi bola $0 sartu taulan.|Bolak hartu eta bota daitezkete.
+	--   backups refer to cards that add pieces after a number of turns
+effect_alarm::Hildako pieza bakoitzeko, errefortzu zuriak txanda $0 lehenago agertzen dira.
+
+  -- NEW!
+		-- Refers to the difficulty level of the algorithm deciding the white side's moves. Shows as: "White Strategy:+1"
+		-- "White Strategy" can also be translated as "AI Intelligence", "AI Cleverness", or "White Tactics". Take your pick
+effect_ai_lvl::Zurien estrategia: $1
+
+
+
+	--   STATS
+	--   These are shown when hovering the mouse cursor over the stats shown to the left of the checkboard in-game.
+	--   $0 is always replaced with the number for that stat, except with range.
+	--   Range is how far you can shoot before your bullets disintegrate, but it's slightly randomized so we give two numbers, a minimum and a maximum, thus $0 is replaced with "3-5" for example.
+	--   For stat_blade and stat_jump, "nearby" means on one of the 8 squares around your king, including corner squares.
+stat_firepower::Eskopetako kartutxo bakoitzak $0 jaurtigai botatzen ditu. Jaurtigai bakoitzak BP 1 eragiten du.
+stat_range::Jaurtigaiek $0 laukiko irismena daukate.
+stat_f_arc::Jaurtigaiek $0ko dispertsioa daukate.
+stat_knock::Jaurtigaiek %$0ko zoria daukate piezak atzera botatzeko.
+stat_pierce::Jaurtigaiek %$0ko zoria daukate piezak zulatzeko.
+	--   [You can / you are allowed to] kill a nearby piece with...
+stat_blade::$0 BP edo gutxiago dauzkan pieza bat akabatu kartutxorik erabili gabe.
+stat_fearsome::Pieza bat akabatzean, Beldur irismen barruan dauden piezak koldartzen dira, ez dute erasorik egingo eta beraien hurrengo mugimendua ihes egiteko izango da.
+	--   [You can / you are allowed to] jump over a nearby piece...
+stat_jump::Alboko pieza baten gainetik egin salto $0 aldiz arte zure txanda amaitu gabe.
+
+
+	--   CONDITIONS
+	--   These are used with the flip_if and card_exhausted_bc keys.
+	--   $0 is replaced with a piece name, $0s is replaced with the pluralized version of that piece name. You can use one or the other.
+cond_contact::pieza bat alboan badago
+cond_inner::zure erregea taulako ertzan kokatuta ez badago
+cond_first-reload::eskopeta kargatu bada
+cond_no_piece::$0(r)ik taulan ez badaude
+cond_only_pieces::$0ak bakarrik badaude taulan
+cond_not_cloaked::zure erregea ezkutuatuta ez badago
+
+
+	--   SPECIALS
+	--   These are special abilities a player can get with specific cards in the game. They always use the right click on PC, or a specific button if playing with a controller. In the '_console' varients, $0 is replaced with that button's name or icon.
+
+special_strafe::Mugumendu modua: egin eskuin klik pieza bat aukeratzeko eta mugitzean tiro egin.
+special_strafe_console::Mugumendu modua: sakatu $0 pieza bat aukeratzeko eta mugitzean tiro egin.
+
+special_scope::Eskuin klik: dispertsioa -45$ eta irismena +1.| Mugitzean edo kargatzean kenzten da.
+special_scope_console::Sakatu $0: dispertsioa -45$ eta irismena +1.| Mugitzean edo kargatzean kenzten da.
+
+special_decree::Eskun klik eginez kargatutako jaurtigai guztiak tirotzeko.
+special_decree_console::Sakatu $0 kargatutako jaurtigai guztiak tirotzeko.
+
+special_grenade::Eskuin klik eginez granada bat bota.
+special_grenade_console::Sakatu 0$ granada bat botatzeko.
+
+special_orb::Pieza bati eskuin klik egin bere hurrengo mugimendua ikusteko.
+special_orb_console::Sakatu $0 pieza bat aukeratzeko eta honen hurrengo mugimendua ikusteko.
+
+
+	--   WANDS
+	--   These are other special abilities that can be used by clicking on a wand, if you have its card. They usually regenerate on each new level.
+wand_0::$0 BP eragiten dizkio ausazko piezei.
+wand_1::Eskopetaren munizioa berretsi eta guztiz kargatu.
+	--   non-king target -> prompts the player to choose the target when activating this ability
+wand_2::$0 BP eragiten dizkio $leader ez den nahi duzun piezari
+wand_3::$0 lauki arte mugitu zaitezke edozein norabidean.
+wand_4::Pieza zuri guztiak lauki bat iparralderantz mugitu.
+wand_5::Nahi duzun pieza zuri bat jokatu.
+wand_6::Zorabiatu pieza bat 3 txandaz eta bere arima lapurtu.
+	--   refill = regenerate = can be used again
+wand_7::Peoi bat akabatu.|Peoi bat ez den pieza bat akabatzean berrizten da.
+
+	--   DISRUPTION
+	--   These are effects available to the player on reaching a special tile when they have the Undercover Mission.
+	--   "their" always refers to the white army
+	--   the name for each effect is always shown with the corresponding description below, and with an icon to illustrate.
+disrupt_effect_name_0::Armada Zuria sabotatu.
+disrupt_effect_name_1::Pozoindu ura.
+disrupt_effect_name_2::Munizioa lapurtu.
+disrupt_effect_name_3::Errege zuria zaztatu.
+disrupt_effect_name_4::Zapatak itsatsi.
+disrupt_effect_name_5::Karma aldatu.
+disrupt_effect_name_6::Zaindariak armagabetu.
+disrupt_effect_name_7::Atzera kontaketa aldatu.
+
+disrupt_effect_desc_0::Nahi duzun karta zuri bat baliogabetu.
+disrupt_effect_desc_1::Pieza zuri guztiak -1 BP max. daukate.
+disrupt_effect_desc_2::Eskopetaren munizioa berretsi eta guztiz kargatu.
+disrupt_effect_desc_3::4 BP eragin erregeari.
+disrupt_effect_desc_4::Abiadura -1 pieza zuri guztiei.
+	--   refers to a card called Karma which usually gives different maluses depending on what square color you're standing on.
+disrupt_effect_desc_5::Karmaren eragin negatiboak positiboak bihurtzen dira.
+disrupt_effect_desc_6::Peoiek ezin dute erasorik egin.
+	--   refers to a card called Final Countdown which usually kills you if you fail to win the level in a specific number of turns
+disrupt_effect_desc_7::Atzera kontua amaitzen denean, pieza zuri guztiak suntsitzen dira.
+
+	--   SHOTGUN UNLOCKS
+	--   These are the conditions to unlock each shotgun
+shotgun_unlock_1::Irismena +6 lortu |eskopeta hau lortzeko.
+shotgun_unlock_2::%100-ko atzerakada lortu|eskopeta hau lortzeko.
+shotgun_unlock_3::+4 kartutxo kargatu aldi batez|eskopeta hau lortzeko.
+shotgun_unlock_4::Ezpata +4 lortu|eskopeta hau lortzeko.
+	-- Here search refers to the search stat/mechanic which allows the player to reroll card choices.
+shotgun_unlock_5::Kartak bilatu 4 aldiz|eskopeta hau lortzeko.
+shotgun_unlock_5::Aldatu zure kartak 4 aldiz|eskopeta hau lortzeko.
+shotgun_unlock_6::0-2ko irismena lortu|eskopeta hau lortzeko.
+
+	--   CONSOLE
+	--   This is used on consoles only. (please translate it anyway)
+	--   Switch profile = Switch to a different account on the console
+switch_profile::Profila aldatu
+
+	--   TUTORIAL
+	--   These are all used in the tutorial. (easy to test once you're done, yay!)
+	--   'ctrl_tuto_' keys are always followed by a pictogram of the controls whose function is being described.
+
+objectives_tuto::Zereginaklo:
+objective_tuto_1::- Alfil zuria ekiditu.|- Gazteluan sartu.
+	--   get = pick up = obtain
+objective_tuto_2::- Eskopeta lortu.
+objective_tuto_3::- Dorrea akabatu.
+objective_tuto_4::- Bi zaldunak akabatu.
+objective_tuto_5::- Errege zuria akabatu.
+chess_tuto_1::Alfilak diagonalki mugitzen dira.
+ctrl_tuto_1_1::Honekin nora mugitu aukeratu:
+ctrl_tuto_1_2::Eta honekin baieztatu:
+chess_tuto_3::Dorreak ortogonalki mugitzen dira.
+ctrl_tuto_3_1::Honekin apuntatu:
+ctrl_tuto_3_2::Eta honekin su egin:
+ctrl_tuto_3_3::Eskopeta kargatu mugituz edo hau sakatuz:
+	--   '| |' is intended, makes a double linebreak
+chess_tuto_4::Zaldunak L forman mugitzen dira| |Kontuz, beste piezen gainetik salto egin dezakete!
+ctrl_tuto_4_1::Piezen informazioa edozein momentuan ikusi dezakezu honekin:
+ctrl_tuto_4_2::Honekin jokoa pausatu dezakezu:
+chess_tuto_5_1::Erreginak edozein norabidean mugitu daitezkete.
+chess_tuto_5_2::Peoiak lauki bakarra mugitu dezakete aurrerantz, baina diagonalki erasotzen dute!
+ctrl_tuto_5_1::Maila bakoitzaren helburua errege zuria akabatzea da.
+ctrl_tuto_5_2::Karten deskribapenak ikusi dezakezu honekin:
+	--   dangers display = visual warnings = show dangerous squares
+ctrl_tuto_5_3::Lauki arriskutsuak jarri edo kendu dezakezu honekin:
+tuto_barrels::Kanoiak:|Hau da eskopetan kargatutako kartutxoak. Su egin dezakezu gutxienez bat badaukazu.|Kargatzeko, mugitu edo $0 sakatu.
+tuto_ammo::Kartutxoak:|Hau zure kartutxo erreserba da.|Kartutxoak lortu mugituz eskopeta guztiz kargatuta dagoela edo kartutxorik gabe bazaude.
+tuto_folly_shields::Zentzugabekeriaren ezkutuak:|Hemendik aurrera hil zaitezke kontua ez baduzu! Zorionez, ezkutu hauek dauzkazu hanka-sartzeak ekiditzeko, txanda hasiera bakoitzean berreskuratzen dira.| |Ezkutu kopurua aldatu dezakezu ezarpenetan.
+tuto_card_black::Mail bakoitza amaitzean, hobekuntz bat lortuko duzu zuretzat...
+tuto_card_white::... eta zure etsaientzat! Zorte on!
+
+	--   TUTORIAL DIALOGUES
+	--   These are the names as displayed at the beginning of dialog boxes.
+black_king::Errege Belttza:
+black_bishop::Alfil Beltza:
+
+	--   Black Bishop:
+dialogue_tuto_1_1::Berorren maiestate, denengandik baztertua izan zarete, ni bakarrik geratzen naiz laguntzeko eta aholkatzeko. Atzera-egite taktiko bat iradoki dezaket?
+	--   [White bishop appears]
+	--   Black king:
+dialogue_tuto_1_2::Traidore!!! Tentel itxura daukazu!
+	--   Black bishop:
+dialogue_tuto_1_3::Jauna, tamalez,  aurrera jarraitzeko ahulegiak gara. Mezedez, gaztelura itzul gaitezen.
+	--   B King:
+dialogue_tuto_1_4::Ondo, goazen. Izan ere, egoera honi aurre egiteko ideia bat bururatu zait.
+	--   [Both get into the castle. Next screen is in a room with a shotgun on a pedestral.]
+	--   B King:
+dialogue_tuto_2_1::Hor dago, nire zerbitzari leialagoa…
+	--   B Bishop:
+dialogue_tuto_2_2::Jauna? ¿Zer… egin nahi duzue?
+	--   B King:
+dialogue_tuto_2_3::Nire Eskopeta Erreala!!! Ea zer aurpegi jartzen duten traidore kakanarru horiek.
+	--   B Bishop: (distressed)
+dialogue_tuto_2_4::Berorren maiestate, arren eskatzen dizuet… Nire ustean, hau gehiegikeria da, ezin dut proposamen hau babestu.
+	--   B King:
+dialogue_tuto_2_5::Panpin aho hori itxi eta hemen geratu. Ez zaitut ez zu ez zure onarpena behar.
+	--   [Back outside in front of the castle. A white rook is there.]
+	--   B King: (can replace this line with any sort of gratuitous threat that plays on words with the rook piece or with the castle in the background)
+dialogue_tuto_3_1::Eh, zu! Bai, zu, dorrekasto! Nire harresiak ikustera etorri al zara?! Hurbildu, erakutsiko dizut zerbait!!
+	--   B King, after shooting once at the rook, needs to reload their shotgun:
+dialogue_tuto_3_2::Adreilu pilo tentela, kargatzera behartuko nauzu?
+	--   B King has killed the rook, and now two knights come onto the board.
+	--   B King: (snarky remark on knights' weird L-shape movement in chess)
+dialogue_tuto_4_1::Ah, hemen dator zalditeri erreala. Lerro zuzenean mugitzeko gai al zarete jada, astropoto alakoak?
+	--   B Bishop, explaining you can see enemy piece's info in the interface.
+dialogue_tuto_4_2::Maiestate, aurreko mandekoei buruzko informazioa bildu dizuet, ezagutu ditzazue. Informazio honen artean, haien mugimenduak, abiadura eta BPak (Bizitza Puntuak) daude.
+	--   B King: (callback to the first time the king told the bishop to shut up)
+dialogue_tuto_4_3::Ez al nizun esan panpin aho hori itxita izatea?
+	--   Both knights are blown to pieces by the Black King.
+	--   B King:
+dialogue_tuto_powerup::Ez dago bolbora errea bezalako usain hobeagorik zure mendeko traidoreak suntsitu ondoren! Gero eta biziago sentitzen naiz!
+	--   The white king and queen come onto the board with a few pawns.
+	--   B King: (lead hail refers to the shotgun's pellets. can replace this with any vaguely threatening pun/joke about rival royalty)
+dialogue_tuto_5_1::Begira! Agurtu dezagun Bikote Erreala! Agurtuko zaituztet, bai, baina… tiroka! Kar, kar!!!
+	--   Still B King, to himself: ("gets it" = dies. Needs to convey that the white side will give up if their king dies)
+dialogue_tuto_5_2::Ziur koldar hauek nire belarditik ihes egingo dutela beraien errege zuri kuttuna erortzen denean…
+	--   The B King defeats the small white army.
+	--   Narrator, with illustrations: (continuation from vig_1, to be found further below, which is actually displayed at the start of the tutorial, and this is shown after the tutorial is completed)
+	--   (the "claim over thyne former subjects' souls" is about the game's mechanic of stealing piece's souls when they die to move like them.)
+	--   (B Bishop prophesizes that the B King anger will lead him to his demise)
+vig_2_tuto::Armada zuria garaituta, Alfil Beltza Errege Beltzarengana hurbildu zen, bere dimisioa aurkeztu eta hau esan zion: «Inoiz egondako errege txarrenetarikoa izan zarete, baina zuen erreinua oraindik sakratua da. Lehen izandako menpekoen arimak, oraindik zuenak dira, hau dela eta, ezin gara zuen haserreaz are gehiago beldurtu. Ondorioz, adi egon nire oharpenarekin: “Gizon baten haserrea, ahaltsua izanda ere, beti da haren galbidea”».
+vig_3_tuto::Eta horrela, Errege Beltza bakarrik geratu zen, guztiengandik aldenduta, ezta dorre bakar bat bere izenean. Bere eskopeta erreala geratzen zitzaion soilik, bere duintasunaren zirimolak eta amorru profetizatuaren eta amorru profetizatuaren handiagoa. «Haserrea nire galbidea izango dela?! Galbidea dio! Zerbait galtzeko egoeran egongo banintz!». Bere erotasun ilunean, Erregeak bere eskopeta kargatu zuen behin gehiagoz eta bere azken partida jokatzera joan zen.
+
+	--   ACHIEVEMENT NAMES
+	--   please check directly in game in the codex for the signification of each achievement
+ach_FULL_SET::Multzo osoa
+ach_WIZARD::Aztia
+ach_COMPLETE::Beteta
+
+	--   This is given when the player defeats the secret bishop boss
+ach_AVENGED::Mendekatua
+	--   This is given when the player defeats the secret bishop boss and shoots at the red book which gave his powers to the black bishop
+ach_EXORCISED::Exorzizatua
+
+ach_SWARM::Erlekume
+ach_LEGION::Legioa
+ach_SNIPER::Frankotiratzaile
+ach_ASSASSIN::Hiltzaile
+ach_STEROID::Dopaketa
+ach_TRIGGER_HAPPY::Gatillo erraza
+ach_SCAVENGER::Sarraskijale
+ach_HAREM::Haren
+ach_SOCIAL_DISTANCING::Urruntze soziala
+ach_RELIGION::Erlijio
+ach_SECRET::Sekretuak
+ach_SECURITY_SERVICE::Segurtasun zerbitzuak
+ach_INQUISITION::Inkisizioa
+ach_MOBILITY::Mugimendua
+ach_BOUNDARIES::Mugak
+ach_MACHINE_GUN::Metrailadore
+ach_SURVIVOR::Biziraule
+ach_DEMOLITION::Eraiste
+ach_HORSEMEN_OF_THE_APOCALYPSE::Apokalipsiko Zaldunak
+ach_ROYAL_RETAINER::Errege-morroiak
+ach_THE_FLOOR_IS_LAVA::Zorua laba da
+ach_EMPEROR::Enperadore
+ach_LATE_TO_THE_PARTY::Berandu festera 
+ach_UNEXPECTED_ENTRANCE::Ustekabeko sarrera
+ach_SWORDMAN::Ezpatari
+ach_CLIFFHANGER::Cliffhanger 
+ach_NINJA::Ninja
+ach_SLAUGHTER::Sarraskia
+ach_BENEVOLENCE::Onginahia
+ach_BUILDER::Igeltserotza
+
+	--   Names of the shotguns
+	--   You can add your translation for shotgun at the end to make it clearer (eg. Solomon Shotgun) but otherwise keep the names as they are please.
+ach_SOLOMON::Solomon
+ach_VICTORIA::Viktoria
+ach_RAMESSES_II::Ramses II
+ach_RICHARD_III::Rikardo III
+ach_MAKEDA::Makeda
+
+ach_MERCIFUL_RULER::Agintari errukitsua
+ach_A_VELVET_GLOVE::Zetazko eskularrua
+ach_DELETED::Desagerraraztua
+ach_SQUARE_ALLEGIANCE::Laukiarekiko fideltasuna
+ach_INCARNATION::Haragitze
+ach_LIKE_FATHER_LIKE_SON::Nolako egurra, halako ezpala
+ach_HUMILIATION::Apalkuntza
+
+	--   This achievement is given for throwing an iron queen off of the checkboard
+ach_HASTA_LA_VISTA_BABY::Hasta la vista, «baby»
+
+ach_HOW_IT_SHOULD_BE::Izan beharko lukeen bezala
+ach_SHE_IS_EVERYWHERE::Leku guztietan dago
+ach_MORTAL_PERIL::Arrisku hilgarria
+ach_PROJECTILE_DYSFUNCTION::Jaurtigai disfuntzioa
+ach_HOPE_THIS_HITS::Espero hau emateak
+ach_NINE_LIVES::Bederatzi bizitza
+ach_YOUR_WIFE_MY_WIFE::Zure emaztea, nire emaztea
+ach_A_MIGHTY_FORTRESS::Gotorleku izugarria
+ach_UNDERPRESSURE_AMMO::Presioazpiko jaurtigaia
+ach_GLUTTONY::Sabelkeria
+ach_IRON_KING::Burdinezko erregea
+ach_WIDOW::Alargun
+ach_YOU_SHALL_NOT_PASS::Ez… zara… pasatuko!
+ach_BLITZ::Blitz
+ach_BULLET::Bala
+ach_SUICIDE_PACT::Itun suizida
+ach_OH_NO::Oh, ez!
+ach_MR_PRESIDENT::Presidente jauna!
+ach_LIFEGUARD::Sorosle
+ach_MMMMH_DELICIEUX::Mmm, ¡«délicieux»!
+
+	--   $0 is replaced with the number for each rank, this is the achievement given for completing them
+ach_rank::$0. maila
+
+ach_DANGEROUS_LIFE::Bizitza Arriskutsua
+ach_NIGHTMARE_ERA::Amezgaiztoaldia
+ach_DRAUGHTS::Dama-jokoa
+ach_PUPPET_MASTER::Txotxongilolari
+ach_HIDDEN_CONSPIRATOR::Konspiratzaile klandestinoa
+ach_DECEIVER::Iruzurgile
+ach_STARBURST::Aureola itsugarria
+ach_DETENTION::Atxiloketa
+ach_OUT_OF_TIME::Ordutsu
+ach_JEALOUSY::Inbidia
+ach_DISCREET_HOST::Anfitrioi diskretua
+ach_FIRST_AID::Lehen sorospenak
+
+	--   More shotgun names
+ach_ALEXANDER::Alexander
+ach_YVAN_IV::Yvan IV
+
+	--   This one is for defeating the secret queen boss
+ach_MARITAL_PEACE::Ezkontza lasaia
+	--   This one is for defeating the secret 4 horsemen of the apocalypse boss
+ach_END_OF_THE_WORLD::Mundu amaiera
+	--   And this one is for getting the secret ending where the black king steals one of the apocalypse horsemen's horses
+ach_NEW_JOB::Ogibide berria
+
+ach_WORKPLACE_ACCIDENT::Lan-istripua
+ach_BULLFIGHTING::Zezenketa
+ach_BURIED_ALIVE::Bizirik lurperatuta
+ach_COLD_REGICIDE::Odol hotz errege-hilketa
+ach_FINAL_ESCAPE::Azken ihesa
+ach_HIPPOCRACY::Zaldikrazia
+ach_BLOODBATH::Odol bainua
+ach_ANARCHY::Anarkia
+ach_WARDEN::Zaindari
+ach_MIDNIGHT_DANCE::Gauerdiko dantza
+
+	--   ACHIEVEMENT DESCS
+ach_FULL_SET_desc::10 karta beltz lortu.
+ach_WIZARD_desc::3 hagaxka izan.
+ach_COMPLETE_desc::Errege Zuria akabatu.
+ach_AVENGED_desc::Alfil Beltza akabatu.
+ach_EXORCISED_desc::Liburu Gorria akabatu.
+
+	--   $0, $1 and $2 are replaced with card names.
+ach_cards_desc::$0, $1 eta $2 kartekin irabazi.
+
+	--   same description for all shotgun achievements.
+ach_gun_desc::Tronu modua irabazi eskopeta honekin.
+
+ach_MERCIFUL_RULER_desc::Solairu bat amaitu peoirik akabatu gabe.
+ach_A_VELVET_GLOVE_desc::Solairu bat amaitu nagusiak ez diren piezak akabatu gabe.
+ach_DELETED_desc::Solairu bat amaitu 6. txanda amaitu baino lehen.
+ach_SQUARE_ALLEGIANCE_desc::Solairu bat amaitu lauki zuririk ikutu gabe.
+ach_INCARNATION_desc::Solairu bat amaitu non arimak soilik erabiliz mugitzen zara.
+ach_LIKE_FATHER_LIKE_SON_desc::Erregea akabatu bere oinordea botaz.
+	--   hopping = jumping
+ach_HUMILIATION_desc::Erregea akabatu bere gainetik salto eginez.
+ach_HASTA_LA_VISTA_BABY_desc::Burdinezko Erregina akabatu.
+ach_HOW_IT_SHOULD_BE_desc::2 zaldun, 2 dorre, 2 alfil, erregin 1, errege 1 eta 8 peoi izan Armada Zurian.
+ach_SHE_IS_EVERYWHERE_desc::5 erregin edo gehiago izan taulan aldi berean.
+ach_MORTAL_PERIL_desc::Egon xakean 4 pieza desberdinengandik.
+ach_PROJECTILE_DYSFUNCTION_desc::Izan eskopetan kargatuta munizio erreserban izan dezakezuna baino gehiago.
+ach_HOPE_THIS_HITS_desc::120° edo gehiagoko dispertsioa izan.
+ach_NINE_LIVES_desc::Laino Beltza erabili 9 aldiz.
+ach_YOUR_WIFE_MY_WIFE_desc::Erregina hartu eta eraman ezazu hasieran zeunden laukira.
+ach_A_MIGHTY_FORTRESS_desc::6 dorre edo gehiago izan taulan aldi berean.
+ach_UNDERPRESSURE_AMMO_desc::1eko su-ahalmena izan.
+ach_GLUTTONY_desc::20ko munizio erreserba izan.
+ach_IRON_KING_desc::Tronu Modua irabazi Zentzugabekeriaren Ezkuturik erabili gabe.
+ach_WIDOW_desc::Tronu Modua irabazi erreginik akabatu gabe.
+ach_YOU_SHALL_NOT_PASS_desc::Tronu Modua irabazi peoirik koroatu gabe.
+ach_BLITZ_desc::Tronu Modua irabazi 5 minutu edo gutxiagon.
+ach_BULLET_desc::Tronu Modua irabazi 2 minutu edo gutxiagon.
+ach_SUICIDE_PACT_desc::Errege Zuria eta Errege Beltza akabatu aldi berean granada bat erabiliz.
+ach_OH_NO_desc::Zuk botatako granarekin hil zaitez.
+ach_MR_PRESIDENT_desc::Dorre bat erregea salbatzea eragin botatako pieza batengatik.
+ach_LIFEGUARD_desc::Pieza bat zulotik atera.
+ach_MMMMH_DELICIEUX_desc::Errege zuriak jan zaitzala.
+
+	--   finish throne = finish throne mode. $0 is replaced with rank number.
+ach_rank_desc::Tronu Moduako $0. maila irabazi
+
+ach_ALEXANDER_desc::Tronu Modua irabazi eskopeta honekin.
+ach_YVAN_IV_desc::Tronu Modua irabazi eskopeta honekin.
+ach_MARITAL_PEACE_desc::Izurritea amaitu.
+ach_END_OF_THE_WORLD_desc::Apokalipsiko Lau Zaldunak akabatu.
+ach_NEW_JOB_desc::Lanpostua lapurtu zaldun bati.
+ach_WORKPLACE_ACCIDENT_desc::Bota taulatik peoia ez den pieza bat.
+ach_BULLFIGHTING_desc::Adarbakar bat suizidarazi.
+ach_BURIED_ALIVE_desc::Erregea akabatu mausoleoko eregina soilik erabiliz.
+ach_COLD_REGICIDE_desc::Erregea akabatu Isiltasun moduan zauden bitartean.
+ach_FINAL_ESCAPE_desc::Erlojupean zauden bitartean, solairu bat amaitu piezik erasotu gabe.
+ach_HIPPOCRACY_desc::Egin zaldunek Armada Zuriaren liderrak izan daitezela.
+ach_BLOODBATH_desc::Izan 12 pieza edo gehiago odoletan aldi berean.
+ach_ANARCHY_desc::Izan 4 errege edo gehiago taulan aldi berean.
+ach_WARDEN_desc::Izan 8 pieza edo gehiago espetxean.
+ach_MIDNIGHT_DANCE_desc::+4ko su-ahalmena lortu dantza sekretu bat egin ondoren.
+
+	--   LIVE SPECIFIC
+	--   Used only on Xbox.
+HERO_BestThroneRank::Tronu moduko maila altuena
+HERO_BestThroneTime::Tronu moduko denbora hoberena (edozein maila)
+HERO_BestEndless::Infinito moduko maila altuena
+HERO_HighscoreChase::Jazarpen moduko puntuazio hoberena
+	--   Shown as player's status.
+Presence_RP_menu::Menuan
+Presence_RP_tutorial::Tutorialean
+Presence_RP_throne::Tronu moduan - Maila {0}
+Presence_RP_endless::Infinito moduan - Maila {0}
+Presence_RP_chase::Jazarpen moduan
+
+	--   PSN SPECIFIC
+	--   Used only on PS4 & PS5
+ach_PLATINIUM::Eskopetaren jainkoa
+ach_PLATINIUM_desc::Trofeo guztiak irabazi dituzu!
+ui_trophies::Trofeoak: %$0
+
+	--   STORIES
+	--   Intro to throne mode (vig_1 is also used for the tutorial, and the tutorial ends with a variation of vig_2 and vig_3)
+vig_1::Errege Beltza gobernari bitxi eta ezatsegina izan zen. Urteak joan urteak etorri, Errege Zuriak gero eta menpeko gehiago lortzen joan zen, soldata altuagoak eta lan duinak eskaintzen zizkienak. Egun batean, bere gaztelua erasotu zuten. Bere zaldunek uko egin zioten zerbitzatzen jarraitzeari. Bere emaztea ere, Erregina, utzi egin zion.
+vig_2::Alde egin baino lehen, azken Alfil Beltza berarengana hurbildu eta hala esan zion: «Egondako erregerik txarrenetarikoa izan zarete, baina zuen erreinua sakratua da oraindik. Lehen izandako menpekoen arimak, oraindik zuenak dira, hau dela eta, ezin gara zuen haserreaz are gehiago beldurtu. Beraz, adi egon nire oharpenarekin prestad atención a mi advertencia: “Gizon baten haserrea, ahaltsua izanda ere, beti da haren galbidea”».
+vig_3::Eta horrela, Errege Beltza bakarrik geratu zen, guztiengandik aldenduta, ezta dorre bakar bat bere izenean. Bere eskopeta erreala geratzen zitzaion soilik, bere duintasunaren zirimolak eta amorru profetizatuaren eta amorru profetizatuaren handiagoa. «Haserrea nire galbidea izango dela?! Galbidea dio! Zerbait galtzeko egoeran egongo banintz!». Bere erotasun ilunean, Erregeak bere eskopeta kargatu zuen behin gehiagoz eta bere azken partida jokatzera joan zen.
+
+	--   Transition to the boss big white king. Yes, light swears are okay, for what it's worth the game's ESRB rating is Everyone 10+.
+vig_4::Hainbeste urtez lortutako menekoak... Hainbeste lan ongi etorriak eta seguruak senti zezaten... Dena eskopetadun errege psikopata batek ezertara murrizteko. Errege Zuriak ez zuen hau onartuko, ez solairu bat gehiagoz. Literalki amorruz lehertuta, guduan agertu zen maniako berekoi hura zapaltzeko.
+	--   Variant for when the Theocracy card is in play. The White King takes back the rule from the bishops.
+vig_5::Hainbeste urtez lortutako menekoak... Hainbeste lan ongi etorriak eta seguruak senti zezaten... Dena eskopetadun errege psikopata batek ezertara murrizteko. Errege Zuriak ezin zuen hau onartu eta utzi Konklabak bere erreinua hondamendira eraman. Literalki amorruz lehertuta, guduan agertu zen maniako berekoi hura zapaltzeko.
+
+	--   Normal win
+vig_6::Eta horrela, Errege Beltzaren haserreak garaipenera eraman zion. Orain berari zegokion gaztelua eta Errege Zuriaren menpekoak lapurtzea! Bere gobernu zakarra jasan beharko zuten beste behin...
+vig_7::"Poztu zaitezte! Gutxienez, ez zarete txiktu egin!", oihukatu zien eskopetari eusten zion bitartean barrezka. Garaitu gabea, ez zuen ezer ikasi. Ez zen denbora asko igaroko Errege Zuri berri bat agertu eta istorio osoa berriro hasi arte...
+
+	--   SECRET ENDINGS
+	--   On killing the Black Bishop:
+vig_8::«Ja! Nork egin du topo bere galerarekin orain?», oihukatu zuen Eskopetadun Erregeak. Baina Alfila hil bezain laster, liburua bere eskuetatik hegan hasi eta taulatik zerura igo zen.
+	--   The following is only used if a secret condition is respected of killing the bishop. Otherwise the normal ending is shown instead after this.
+
+vig_9::"Ez hain azkar!" Bere eskopeta kargatuta, apuntatu zuen...
+vig_10::... ... eta liburuari tiro egin zion, orri hautsi eta asaldatuen masa bihurtuz. "Hitz santuak? Bai zera!", esan zuen. "Ezer ez da ni eta eskopeta hau baino santuagoa!".
+vig_12::"Poztu zaitezte! Gutxienez, ez zarete txiktu egin!", oihukatu zien eskopetari eusten zion bitartean barrezka."Eta orain, ediktu berri bat! Liburu gehiagorik ez! Debekatuak izango dira! Kanpora liburu sakratuak! Hemendik aurrera, zuen Jainkoa izango naiz. Eskopetaren Jainkoa!". Bere gobernua gupidagabea eta beldurgarria izango litzateke betiko.
+
+	--   Shown after defeating the secret boss queen. ("The Blight")
+	--   Should read as not-so-subtle freaky erotica. Don't use direct sexual words but lean hard into the double-entendres. Have fun with it!
+	--   Don't make it too long. The original text is already quite close to the limit of what can be displayed at once.
+vig_13::Garro horiek erregearen buruan geratuko ziren gauez lo egiten utzi gabe. Beso hezurgabe eta irristakor horiek gorputzean zehar nola irristatzen zitzaizkion, indarrez heldu eta estutu, bizi-indarra drainatuz... Bere onetik ateratzen zion. Erregina izaki adoretsua izan zen betidanik... Orain, Erregeak bere eskopetako kanoi hotzekin eta bere ponpaketa bakartiarekin konformatu beharko zen.
+	--   Then the normal ending is shown.
+
+	--   Shown after the black king steals a horse from one of the secret boss horsemen of the apocalypse and leaves the board.
+	--   The black king found a "job opening" as a horseman of the apocalypse, leaving his old role of king.
+vig_14::Asmatu, nork aurkitu du lana Bibliako mehatxu madarikatu bat bezala? Mendeko ziztrin eta alferrikakoei atsegin emateaz aspertuta, azkenean, lan bat agertu zen Erregearen dohainak zituen norbaitentzat. Ez ziren hari buruzko zantzu gehiagorik egongo, heriotza eta suntsipena bakarrik, non bere zaldi demonikoak eraman zezan. Kontuz, Satan! Eskopetaren Erregeak eskailera korporatibotik igo da.
+
+	--   Shown after defeating the secret boss Horsemen of the Apocalypse
+	--   Should mention the artifacts because they are shown in the accompanying illustration. Please do your best to translate the last joke about the horsemen's Last Judgement/Apocalypse being the black king's "thursday". (i.e. a day like any other)
+vig_15::"Apokalipsiko Zaldunak? Apokalipsiko Zapalduak esango nuke nik", Esan zuen Errege Beltzak irribarrez, bere trofeo-gelan tramankuluak muntatzen zituen bitartean. Alfilak noizbehinka honi buruz egin zuen, errege-jaramon asko egin gabe, Azken Etpaiketa heraldoei buruz, Denboren Amaiera eragingo luketenak. Eta beraitentzat, baliteke Azken Epaiketa izatea, baina, Erregearentzat, beste edozein ostegun bat bezala izan zen.
+
+
+
+	--   PLURALS
+	--   This is where you define pluralization rules!
+	--   The first rule defines the default behaviour for any word.
+	--   If your language doesn't add 's's at the end of plural words (like in Chinese, Japanese or Korean) please set this first line to '*:s:'. (i.e.: remove the s just before the linebreak) This is very important, otherwise you'll see 's's popping up everywhere.
+
+*:s:s
+
+	--   For any word that is spelt differently when pluralized, use either of these syntaxes:
+	--   child:s:children
+	--   child:2:children
+	--   Use this second version to define a puralization for a specific number. (here 2) Outside percentages the game only uses numbers below 10, so there's no need to define rules for numbers above 10. In case of unnumbered plurals (eg: "knight(s) get +2 HP") then the game internally uses the number 999. So you can write a specific rule for 999 for these cases like so:
+	--   knight:999:knights
+	--   Both versions of the word should be in your language. The original word should be identical to how you wrote it previously in this file, including capitalization(!).
+
+	--   This is used for piece names (full names, not the short versions), for the translation for "shell", and for any words you might have set between braces so you could write its proper plural form here.
+
+man:s:men
+kanoi:s:kanoiak
+aldiz:s:alditan
+Peoi:s:Peoiak
+Alfil:s:Alfilak
+Errege:s:Erregeak
+jaurtigai:s:jaurtigaiak
+kartutxo:s:kartutxoak
+gehigarri:s:gehigarriak
