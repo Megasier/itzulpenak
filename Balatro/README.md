@@ -5,7 +5,7 @@
 <img width="1919" height="1079" alt="Pantaila-argazkia 2026-02-07 141922" src="https://github.com/user-attachments/assets/60293d6d-31aa-4547-80bb-5d8f3133f3b2" />
 
 Baldintzak:
-* 7-zip aplikazioa beharrezkoa [hemen jaitsi](https://www.7-zip.org/)
+* 7-zip aplikazioa beharrezkoa, [hemen jaitsi](https://www.7-zip.org/)
 * "Español (España)" hizkuntza erabili
 
 _____________________________________________________________________________________________________________________
@@ -14,7 +14,7 @@ Nola instalatu:
 1. "es_ES.lua" [jaitsi hemen klik eginez](https://downgit.github.io/#/home?url=https://github.com/Megasier/itzulpenak/blob/main/Balatro/es_ES.lua)
 2. Karpeta deskonprimitu
 3. Balatro instalatuta dagoen fitxategira joan
-4. Balatro.exe aplikazioa eskuin klikarekin arrastratu 7-zip aukera agertzeko
+4. Balatro.exe aplikazioa eskuin klikarekin arrastratu pixka bat eta askatu 7-zip aukera agertzeko
 5. "Localization" karpetan sartu
 6. Jaitsitako "es_ES.lua" hona sartu, eta dagoenarekin ordezkatu
 
