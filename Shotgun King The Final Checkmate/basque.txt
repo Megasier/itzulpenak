@@ -232,6 +232,9 @@ turn_::Txanda:
 	--   Displayed when the player is pressing "shift" to ignore folly shields (which prevent you from putting yourself in a gameover position)
 unsafe_mode::Arrisku modua
 
+	-- Displayed when the playing is hovering a space which does not normally allow shooting. (like the interface, or a piece that can be killed with blade) ALT refers to either "Alt" keys on a keyboard. This key isn't shown when using a gamepad.
+force_aiming::Mantendu Alt apuntatzera behartzeko
+
 	--   Shown at the bottom of the screen when losing because of a classic chess checkmate
 checkmate::Xake-mate!
 
