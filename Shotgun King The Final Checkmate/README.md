@@ -11,5 +11,3 @@ Nola instalatu
 3. Shotgun King The Final Checkmate instalatutako karpetan "lang" izeneko karpeta bilatu
 4. Jaitsitako basque.txt hemen sartu
 5. Jokoaren aukeretan hizkuntza aldatu
-
-[jaitsi hemen klik eginez](https://github.com/Megasier/itzulpenak/raw/master/Shotgun%20King%20The%20Final%20Checkmate/basque.txt)
