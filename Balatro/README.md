@@ -5,7 +5,7 @@
 <img width="1919" height="1079" alt="Pantaila-argazkia 2026-02-07 141922" src="https://github.com/user-attachments/assets/60293d6d-31aa-4547-80bb-5d8f3133f3b2" />
 
 Baldintzak:
-* 7-zip aplikazioa beharrezkoa
+* 7-zip aplikazioa beharrezkoa [hemen jaitsi](https://www.7-zip.org/)
 * "Español (España)" hizkuntza erabili
 
 _____________________________________________________________________________________________________________________
