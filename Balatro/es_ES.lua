@@ -1631,7 +1631,7 @@ return {
                 name="Retro",
                 text={
                     "Joker honek bider {X:mult,C:white} X#1# {} lortzen du",
-                    "partida honetan saltatuako {C:attention}itsu{} bakoitzak",
+                    "partida honetan saltatuako {C:attention}itsu{} bakoitzeko",
                     "{C:inactive}(Orain: {X:mult,C:white} X#2# {C:inactive} bider)",
                 },
                 unlock={
