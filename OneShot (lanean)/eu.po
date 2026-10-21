@@ -6750,7 +6750,7 @@ msgstr "@kip_sigh George-ek arrazoi du."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:287:text
 msgid "@kip_pout The squares seem to be targeting a lot of the weaker constructs in the city."
-msgstr "@kip_pout Los cuadrados parecen estar atacando a muchas de las construcciones más débiles de la ciudad."
+msgstr "@kip_pout Laukiak hiriko eraikuntza ahulenak erasotzen ari direla dirudi."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:288:text
 msgid "@kip_sigh Only the library has enough structural integrity to withstand collapse..."
