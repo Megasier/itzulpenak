@@ -6754,23 +6754,23 @@ msgstr "@kip_pout Laukiak hiriko eraikuntza ahulenak erasotzen ari direla dirudi
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:288:text
 msgid "@kip_sigh Only the library has enough structural integrity to withstand collapse..."
-msgstr "@kip_sigh La biblioteca es lo único con una estructura lo bastante resistente como para evitar derrumbarse..."
+msgstr "@kip_sigh Liburutegia erorketa bat ekiditzeko indar-estruktural nahikoa duen eraikuntza bakarra da..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:289:text
 msgid "@kip_sad It's... best if you stayed here until things stabilize."
-msgstr "@kip_sad Es mejor... que te quedes hasta que la situación se tranquilice."
+msgstr "@kip_sad Hobe da... hemen geratzen bazara egoera egonkortu arte."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:290:text
 msgid "@kip_sigh ...however long that takes."
-msgstr "@kip_sigh ... cuandoquiera que sea eso."
+msgstr "@kip_sigh ... hau irauten duen bezain beste."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:293:text
 msgid "@niko2 But....\\.\\.\\@niko4 but..."
-msgstr "@niko2 Pero...\\.\\.\\@niko4 baina..."
+msgstr "@niko2 Baina...\\.\\.\\@niko4 baina..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:294:text
 msgid "@niko2 What about...\\.\\. my mission?"
-msgstr "@niko2 ¿Qué hay... \\.\\.de mi misión?"
+msgstr "@niko2 Eta nire... \\.\\. misioa?"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:295:text
 msgid "@niko_eyeclosed Don't you guys want me to bring the sun back, at least?"
@@ -6778,91 +6778,91 @@ msgstr "@niko_eyeclosed ¿Es que no queréis que recupere al menos el sol?"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:297:text
 msgid "@george1 Even if you do restore the sun, the squares will persist..."
-msgstr "@george1 Aunque devuelvas el sol, los cuadrados persistirán..."
+msgstr "@george1 Eguzkia itzuli arren, laukiak jarraituko dute..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:301:text
 msgid "@george2_sigh The sun won't do us any good if the squares are just gonna mess everything up."
-msgstr "@george2_sigh El sol no nos servirá de nada si los cuadrados lo echan todo a perder."
+msgstr "@george2_sigh Eguzkiak ez du ezertan lagunduko laukiak dena suntsituko badute."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:305:text
 msgid "@george3_worry Oh...\\.\\.but even if you do bring the sun back..."
-msgstr "@george3_worry Oh... \\.\\.Pero incluso aunque recuperes el sol..."
+msgstr "@george3_worry Oh... \\.\\.baina eguzkia itzultzen baduzu ere..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:306:text
 msgid "@george3_sigh ...the squares... they'll still be here..."
-msgstr "@george3_sigh ... Los cuadrados... seguirán estando ahí..."
+msgstr "@george3_sigh ... laukiak... hor egongo dira oraindik..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:310:text
 msgid "@george4_golly Even if you do bring back the sun, that's not gonna fix the squares..."
-msgstr "@george4_golly Incluso aunque devuelvas el sol, eso no solucionará lo de los cuadrados..."
+msgstr "@george4_golly Eguzkia itzultzen baduzu ere, horrek ez du laukiena konponduko..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:314:text
 msgid "@george5 Even if you do restore the sun, I'm not sure that'll fix the squares..."
-msgstr "@george5 Incluso aunque devuelvas el sol, no creo que eso solucione lo de los cuadrados..."
+msgstr "@george5 Eguzkia itzultzen baduzu ere, ez dut uste laukiena konponduko duen..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:318:text
 msgid "@george6_shrug  ...sun ain't gonna make the squares go away, dude."
-msgstr "@george6_shrug ... El sol no va a hacer desaparecer los cuadrados, colega."
+msgstr "@george6_shrug ... eguzkiak ez ditu laukiak desagerraraziko, lagun."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:332:text
 msgid "@kip_sigh Sadly..."
-msgstr "@kip_sigh Por desgracia..."
+msgstr "@kip_sigh Tamalez..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:333:text
 msgid "@kip_sad Not to mention... even getting there is going to be hard..."
-msgstr "@kip_sad Por no decir... que resultará difícil incluso llegar hasta allí..."
+msgstr "@kip_sad Eta hori... horra heltzea oso zaila izango dela kontuan hartu gabe..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:334:text
 msgid "@kip_pout If the world is like this... there's no telling what's going on in the Tower!"
-msgstr "@kip_pout Si el mundo ya está patas arriba, ¡a saber qué pasará en la Torre!"
+msgstr "@kip_pout Mundua horrela badago jada... pentsa nola egongo den Dorrea!"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:336:text
 msgid "@george1_hm And... if anything bad happened to the messiah, of all people..."
-msgstr "@george1_hm Y... si le ocurriera algo al mesías, de entre toda la gente..."
+msgstr "@george1_hm Eta... guztietatik mesiari zerbait geratuko balitzaio..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:337:text
 msgid "@george1 ...George doesn't want to think about it."
-msgstr "@george1 ... George no quiere ni pensarlo."
+msgstr "@george1 ... George-ek ez du ezta pentsatu nahi."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:341:text
 msgid "@george2_stress And... if anything bad happened to the messiah, of all people..."
-msgstr "@george2_stress Y... si le ocurriera algo al mesías, de entre toda la gente..."
+msgstr "@george2_stress Eta... guztietatik mesiari zerbait geratuko balitzaio..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:342:text
 msgid "@george2_no ...NO!!! I won't allow it!!!"
-msgstr "@george2_no ... ¡¡NO!! ¡¡No lo permitiré!!"
+msgstr "@george2_no ... EZ!! Ez dut onartuko!!"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:346:text
 msgid "@george3_sad And... if anything bad happened to the messiah, of all people..."
-msgstr "@george3_sad Y... si le ocurriera algo al mesías, de entre toda la gente..."
+msgstr "@george3_sad Eta... guztietatik mesiari zerbait geratuko balitzaio..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:347:text
 msgid "@george3_sigh I'm not sure if I'll be able forgive myself..."
-msgstr "@george3_sigh No sé si podría perdonármelo..."
+msgstr "@george3_sigh Ez dakit neure burua barkatuko nuken..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:351:text
 msgid "@george4_golly And... if anything bad happened to the messiah, of all people..."
-msgstr "@george4_golly Y... si le ocurriera algo al mesías, de entre toda la gente..."
+msgstr "@george4_golly Eta... guztietatik mesiari zerbait geratuko balitzaio..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:352:text
 msgid "@george4 I'm not sure what we'd do!"
-msgstr "@george4 ¡No sé qué haríamos sin él!"
+msgstr "@george4 Ez dakit zer egingo genuke!"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:356:text
 msgid "@george5_hmm And... if anything bad happened to the messiah, of all people..."
-msgstr "@george5_hmm Y... si le ocurriera algo al mesías, de entre toda la gente..."
+msgstr "@george5_hmm Eta... guztietatik mesiari zerbait geratuko balitzaio..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:357:text
 msgid "@george5_sigh Oh... that would be so dreadful, dear..."
-msgstr "@george5_sigh Oh... Eso sería horrible, cariño..."
+msgstr "@george5_sigh Oh... ez dut ezta horretan pentsatu nahi, laztana..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:361:text
 msgid "@george6 And... if the messiah got hurt, of all people..."
-msgstr "@george6 Y... si el Mesías resultara herido, de entre toda la gente..."
+msgstr "@george6 Eta... guztietatik mesiari zerbait geratuko balitzaio..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:362:text
 msgid "@george6_shrug That's like...\\.\\.the exact opposite of radical, dude...."
-msgstr "@george6_shrug Es como... \\.\\.el otro extremo de lo radical, colega..."
+msgstr "@george6_shrug Hori... \\.\\.erradikalaren kontrakoa izango zen, lagun..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:375:text
 msgid "@kip_sigh Sigh..."
@@ -6870,71 +6870,71 @@ msgstr "@kip_sigh *Hasperen..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:376:text
 msgid "@kip_sad A friend of mine... said something about this forever ago..."
-msgstr "@kip_sad Una amiga mía... mencionó algo sobre esto hace muchísimo tiempo..."
+msgstr "@kip_sad Lagun bat... honi buruz egin zuen hitz orain dela asko..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:377:text
 msgid "@kip_pout \"It's better for the world to die naturally.\""
-msgstr "@kip_pout «Es mejor que el mundo muera de forma natural»."
+msgstr "@kip_pout "Hobe da mundua era naturalean hiltzen uztea"."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:378:text
 msgid "@kip_sigh \"No living being should have to carry that burden.\""
-msgstr "@kip_sigh «Ningún ser humano debería llevar tal carga»."
+msgstr "@kip_sigh "Ezta izaki bizidun bat ere ez luke zama hori eraman behar."."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:379:text
 msgid "@kip_sad At the time... I thought it was still her faulty code speaking..."
-msgstr "@kip_sad En aquel momento... pensé que sería su código defectuoso..."
+msgstr "@kip_sad Une hartan... bere kodea akastuta zegola pentsatu nuen..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:380:text
 msgid "@kip_sigh But now I... \\.\\.I'm starting to understand..."
-msgstr "@kip_sigh Pero ahora... \\.\\.empiezo a entenderlo..."
+msgstr "@kip_sigh Baina orain... \\.\\.bera ulertzen hasi naiz..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:383:text
 msgid "@kip_pout Messiah... \\.\\.I'm sorry..."
-msgstr "@kip_pout Mesías... \\.\\.Lo siento..."
+msgstr "@kip_pout Mesia... \\.\\.Sentitzen dut..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:384:text
 msgid "@kip_sad I'm really, really sorry...."
-msgstr "@kip_sad Lo siento muchísimo, de veras..."
+msgstr "@kip_sad Benetan sentitzen dut..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:385:text
 msgid "@kip_sigh All this time, we've burdened you with our hope, our faith..."
-msgstr "@kip_sigh Todo este tiempo, has cargado con nuestra esperanza, nuestra fe..."
+msgstr "@kip_sigh Denbora osoan, gure itxaropena izan duzu zama gisa, gure sinismena..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:386:text
 msgid "@kip_pout ...blissfully ignoring the fact that you are just a lost child."
-msgstr "@kip_pout ... Ignorando alegremente el hecho de que no eres más que un niño perdido."
+msgstr "@kip_pout ... guztiz ahazten haur galdu bat besterik ez zarela."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:387:text
 msgid "@niko3 Well..."
-msgstr "@niko3 Bueno..."
+msgstr "@niko3 Ni..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:388:text
 msgid "@kip_pout You're probably more scared than any of us, aren't you?"
-msgstr "@kip_pout Seguro que tú eres quien más miedo tiene de todos nosotros, ¿no?"
+msgstr "@kip_pout Ziur nago zu zarela guztietatik beldur gehien zarena, ezta?"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:389:text
 msgid "@kip_pout We... have been dealing with tragedy for so long, it's become background noise to us now."
-msgstr "@kip_pout Llevamos... tanto tiempo lidiando con la tragedia, que se ha convertido en algo común para nosotros. "
+msgstr "@kip_pout Gu... hainbeste denbora daramagu tragedia honekin non, gure egunerokotasuna bihurtu da. "
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:390:text
 msgid "@kip_sad But for you... \\.\\.it must be so terrifying..."
-msgstr "@kip_sad Pero para ti... \\.\\.debe resultar tan aterrador..."
+msgstr "@kip_sad Baina zuretzat... \\.\\.hain beldurgarria iruditu behar zaizu..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:391:text
 msgid "@kip_sad And now, you're stuck here with the rest of us..."
-msgstr "@kip_sad Y ahora estás aquí atrapado con todos nosotros..."
+msgstr "@kip_sad Eta orain, hemen zaude gurekin harrapatuta..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:392:text
 msgid "@kip_pout ...being held back by the very people you were told to save."
-msgstr "@kip_pout ... siendo retenido por la gente a la que tenías que proteger."
+msgstr "@kip_pout ... babestu behar zenituen pertsonak direla eta geldiarazia."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:393:text
 msgid "@kip_sigh We must seem so ungrateful..."
-msgstr "@kip_sigh Debemos parecerte tan desagradecidos..."
+msgstr "@kip_sigh Esker txarrekoak dirudigu..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:395:text
 msgid "@niko_distressed .....It's...\\>\\@niko_eyeclosed2 .....okay."
-msgstr "@niko_distressed ... No...\\>\\@niko_eyeclosed2 ... pasa nada."
+msgstr "@niko_distressed ... Ez...\\>\\@niko_eyeclosed2 ... lasai."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:396:text Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:403:text Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:474:text
 msgid "@kip_pout ..."
@@ -6942,151 +6942,151 @@ msgstr "@kip_pout ..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:397:text Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:428:text
 msgid "@niko3 I..."
-msgstr "@niko3 Yo..."
+msgstr "@niko3 Ni..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:401:text
 msgid "@niko3 ...when I first came to this world... \\.\\.\\@niko4 a long time ago...."
-msgstr "@niko3 Cuando llegué por primera vez a este mundo... \\.\\.\\@niko4 hace mucho tiempo..."
+msgstr "@niko3 ... mundu honetara etorri nintzenean lehen aldiz... \\.\\.\\@niko4 orain dela asko..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:402:text
 msgid "@niko_distressed2 ...back then, all I wanted was to go home."
-msgstr "@niko_distressed2 ... entonces, lo único que quería era irme a casa."
+msgstr "@niko_distressed2 ... une artan, etxera itzluli nahi nuen."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:407:text
 msgid "@niko_eyeclosed ...\\p... do you remember?"
-msgstr "@niko_eyeclosed ... \\p... ¿Te acuerdas?"
+msgstr "@niko_eyeclosed ... \\p... gogoratzen duzu?"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:408:text
 msgid "@niko2 The very FIRST time..."
-msgstr "@niko2 La primera vez DE TODAS..."
+msgstr "@niko2 LEHEN aldian..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:409:text
 msgid "@niko5 I'm not sure how far back it was for you..."
-msgstr "@niko5 No sé seguro hace cuánto tiempo fue para ti..."
+msgstr "@niko5 Ez dakit orain dela zenbat izango zen zuretzat..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:410:text
 msgid "@niko But... I remember towards the end...\\>\\n\\@niko_eyeclosed I... actually wasn't sure anymore."
-msgstr "@niko Pero... recuerdo que hacia el final... \\>\\n\\@niko_eyeclosed Ya... no estaba seguro."
+msgstr "@niko Baina... gogoratzen dut amaieran... \\>\\n\\@niko_eyeclosed Ni... ez nengon ziur."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:411:text
 msgid "@niko_upset ...about going home."
-msgstr "@niko_upset ... De irme a casa."
+msgstr "@niko_upset ... etxera itzultzeaz."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:412:text
 msgid "@niko_eyeclosed Even knowing the world would be doomed eventually..."
-msgstr "@niko_eyeclosed Incluso sabiendo que el mundo terminaría condenado al final..."
+msgstr "@niko_eyeclosed Munduaren amaiera laster etorriko zela gogoan izanda arren..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:413:text
 msgid "@niko_distressed2 I... still wanted the people here to be happy..."
-msgstr "@niko_distressed2 ... Aún quería... que la gente fuera feliz aquí..."
+msgstr "@niko_distressed2 ... Jendea... zoriontsu izatea nahi nuen oraindik ere..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:415:text
 msgid "@niko_eyeclosed So...\\.\\. when you told me to return the sun, back then..."
-msgstr "@niko_eyeclosed Así que... \\.\\.cuando me pedísteis que devolviera el sol por aquel entonces..."
+msgstr "@niko_eyeclosed Beraz... \\.\\.eguzkia itzultzea esan zenidanean..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:416:text
 msgid "@niko_eyeclosed I didn't even....\\.\\. question it..."
-msgstr "@niko_eyeclosed Ni siquiera... \\.\\.me lo cuestioné..."
+msgstr "@niko_eyeclosed Ez nuen... \\.\\.ezta zalantzan jarri ere..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:419:text
 msgid "@niko_eyeclosed So...\\.\\. when you told me to return home, back then..."
-msgstr "@niko_eyeclosed Así que... \\.\\.cuando me pedísteis que volviera a casa por aquel entonces..."
+msgstr "@niko_eyeclosed Beraz... \\.\\.etxera itzultzea esan zenidanean..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:420:text
 msgid "@niko_distressed2 I wasn't... \\.\\.sure..."
-msgstr "@niko_distressed2 No estaba... \\.\\.seguro del todo..."
+msgstr "@niko_distressed2 Ez nengoen... \\.\\.guztiz ziur..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:421:text
 msgid "@niko_eyeclosed But I trusted you more, \\p..."
-msgstr "@niko_eyeclosed Pero confiaba más en ti, \\p..."
+msgstr "@niko_eyeclosed Baina zugan konfidatu nuen, \\p..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:424:text
 msgid "@niko4 ...but then I just... came back."
-msgstr "@niko4 ... pero justo entonces... volví."
+msgstr "@niko4 ... baina orduan... itzuli nintzen."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:425:text
 msgid "@kip_pout You... what..."
-msgstr "@kip_pout ¿Cómo... dices...?"
+msgstr "@kip_pout Zu... zer...?"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:429:text
 msgid "@niko3 And I... went through that decision again, didn't I?"
-msgstr "@niko3 Y... tuve que pasar por esa decisión otra vez, ¿no?"
+msgstr "@niko3 Eta... erabaki horretik pasa behar izan nuen ezta?"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:430:text
 msgid "@niko_upset But...\\.\\. I came back again..."
-msgstr "@niko_upset Pero...\\.\\. Volví de nuevo..."
+msgstr "@niko_upset Baina...\\.\\. Berriro itzuli nintzen..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:431:text
 msgid "@niko_eyeclosed Even though you were able to do both... \\.\\.the effects couldn't be permanent, could it?"
-msgstr "@niko_eyeclosed Aunque fueras capaz de hacer ambas cosas... \\.\\.los efectos no durarían para siempre, ¿verdad?"
+msgstr "@niko_eyeclosed Bi gauzak egiteko gai izango bazina ere... \\.\\.eraginek ez lukete betirako iraungo, ezta?"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:436:text
 msgid "@niko_upset And then...\\.\\. I found out about the world being like this..."
-msgstr "@niko_upset Y entonces... \\.\\.me encontré el mundo así..."
+msgstr "@niko_upset Eta orduan... \\.\\.horrela aurkitu nuen mundua..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:440:text
 msgid "@niko_eyeclosed Prototype said to forget the things he told me... \\>\\nAnd Cedric told me not to think about it too much, but..."
-msgstr "@niko_eyeclosed Prototipo me dijo que olvidara todo lo que me contó... \\>\\nY Cedric me dijo que no pensara mucho en ello, pero..."
+msgstr "@niko_eyeclosed Prototipok esan zidana ahazteko esan zian... \\>\\nEta Cedric esan zidan horretan gehiegi ez pentsatzeko, baina..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:441:text
 msgid "@niko_eyeclosed I..."
-msgstr "@niko_eyeclosed Yo..."
+msgstr "@niko_eyeclosed Ni..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:443:text
 msgid "@niko4 I'm sorry for getting upset at you... back at the mines..."
-msgstr "@niko4 Siento haberme enfadado con vosotros... cuando lo de las minas..."
+msgstr "@niko4 Barkatu zuekin haserretzeagatik... meategian geundenean..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:444:text
 msgid "@niko_eyeclosed ...I thought... for you to know all that, yet continue doing this..."
-msgstr "@niko_eyeclosed ... Pensé... que sabiendo todo eso y aún así seguíais con el plan..."
+msgstr "@niko_eyeclosed ... Guzti hori... jakin arren, oraindik aurrera jarraitzea..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:445:text
 msgid "@niko_upset2 It... just seemed cruel."
-msgstr "@niko_upset2 Me parecía... muy cruel."
+msgstr "@niko_upset2 ... bihotzgabea iruditu zitzaidan."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:446:text
 msgid "@niko2 But then, I realized something..."
-msgstr "@niko2 Pero entonces, me di cuenta de algo..."
+msgstr "@niko2 Baina orduan, gauza batez konturatu nintzen..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:449:text
 msgid "@niko4 You... really wanted to save both the world and me..."
-msgstr "@niko4 Queríais salvar de verdad al mundo, y a mí..."
+msgstr "@niko4 Zu... mundua eta ni, biak salbatu nahi zenuela..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:450:text
 msgid "@niko_distressed But at the end, you can only choose one, right?"
-msgstr "@niko_distressed Pero al final solo se puede escoger a uno, ¿verdad?"
+msgstr "@niko_distressed Baina azkenean, bakarra aukeratu ahal zenuen, ezta?"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:451:text
 msgid "@niko_distressed_talk Is it... really hard for you too?"
-msgstr "@niko_distressed_talk ¿También te resulta... tan duro?"
+msgstr "@niko_distressed_talk Zuretzat ere... gogorra izan zen?"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:452:text
 msgid "@niko_eyeclosed It must be..."
-msgstr "@niko_eyeclosed Debe serlo."
+msgstr "@niko_eyeclosed Izan behar zen..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:454:text
 msgid "@niko3 ...\\.\\.if the world isn't broken...\\.\\.will that choice still be there?"
-msgstr "@niko3 ...\\.\\.Si el mundo no se ha destruido, \\.\\.¿qué otra opción queda?"
+msgstr "@niko3 ...\\.\\.mundua suntsitu ez bada...\\.\\.aukera hori hor egongo da oraindik?"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:455:text
 msgid "@niko4 ...do you...\\.\\. still need to choose between one or the other?"
-msgstr "@niko4 ... ¿Sigue siendo necesario... \\.\\.escoger entre uno y otro?"
+msgstr "@niko4 ... beharrezkoa al da oraindik... \\.\\.munduaren edo nire artean aukeratzea?"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:457:text
 msgid "@niko_sad But... even if it is..."
-msgstr "@niko_sad Aunque... incluso siendo así..."
+msgstr "@niko_sad Baina... oraindik horrela bada ere..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:459:text
 msgid "@niko_eyeclosed I... \\.\\.really want to save this world, \\p."
-msgstr "@niko_eyeclosed Yo... \\.\\.quiero salvar a este mundo, \\p."
+msgstr "@niko_eyeclosed Nik... \\.\\.mundu hau babestu nahi dut, \\p."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:460:text
 msgid "@niko_distressed2 Even if it's more dangerous this time around..."
-msgstr "@niko_distressed2 Incluso aunque esta vez resulte más peligroso..."
+msgstr "@niko_distressed2 Lehen baino arriskutsuagoa izan arren..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:461:text
 msgid "@niko_distressed_talk Even if... so many of the nice people we met were.... \\>\\@niko_distressed_meow were..."
-msgstr "@niko_distressed_talk Incluso aunque... mucha de la gente maravillosa que hemos conocido estuviera... \\>\\@niko_distressed_meow estuviera..."
+msgstr "@niko_distressed_talk Hemen ezagututako pertsona hain onak... \\>\\@niko_distressed_meow..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:462:text
 msgid "@niko_sad ......"
@@ -7094,7 +7094,7 @@ msgstr "@niko_sad ..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:463:text
 msgid "@niko_distressed_talk \\p.... \\>\\n\\@niko_less_sad I'm not.... \\.\\.afraid, anymore...."
-msgstr "@niko_distressed_talk \\p... \\>\\n\\@niko_less_sad Ya no... \\.\\. tengo miedo..."
+msgstr "@niko_distressed_talk \\p... \\>\\n\\@niko_less_sad Ez naiz... \\.\\. beldur..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:467:text
 msgid "@niko_cry *sniff*"
@@ -7102,15 +7102,15 @@ msgstr "@niko_cry *Snif*"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:468:text
 msgid "@niko_eyeclosed That's why...\\>\\n\\@niko3 I think you guys should let me go..."
-msgstr "@niko_eyeclosed Por eso creo...\\>\\n\\@niko3 que deberíais dejar que me vaya..."
+msgstr "@niko_eyeclosed Horregatik...\\>\\n\\@niko3 hemendik joaten utzi behar didazue..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:469:text
 msgid "@niko_distressed2 I... promise I'll be okay..."
-msgstr "@niko_distressed2 Os prometo... que voy a estar bien..."
+msgstr "@niko_distressed2 Zin dagizuet... ondo egongo naizela..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:470:text
 msgid "@niko_distressed ...please?"
-msgstr "@niko_distressed ... ¿Vale?"
+msgstr "@niko_distressed ... ondo?"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:476:text
 msgid "@george1 ..."
@@ -7118,43 +7118,43 @@ msgstr "@george1 ..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:477:text
 msgid "@george1_hm George has heard your conversation with \\p and is deeply moved!"
-msgstr "@george1_hm ¡George ha oído tu convsersación con \\p y se ha emocionado mucho!"
+msgstr "@george1_hm George-ek zure elkarrizketa entzun du \\p -rekin eta asko hunkitu da!"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:478:text
 msgid "@george1_smug That's why... George has full faith in you!"
-msgstr "@george1_smug Y por eso... ¡George tiene toda su fe en ti!"
+msgstr "@george1_smug Eta horregatik... George-ek zugan sinesten du!"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:482:text
 msgid "@george2_grr ...well, I'm convinced."
-msgstr "@george2_grr ... Bueno, me has convencido."
+msgstr "@george2_grr ... beno, konbentzitu didazu."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:483:text
 msgid "@george2 After all that...\\.\\. it'd be SUPER rude for me to stop you, wouldn't it?"
-msgstr "@george2 Después de todo eso...\\.\\. quedaría MUY mal por mi parte intentar detenerte, ¿no?"
+msgstr "@george2 Guzti horren ondoren...\\.\\. OSO leku txarrean geratuko nintzake geldiarazten jarraitzen badizut, ezta?"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:487:text
 msgid "@george3_sigh ...if you must..."
-msgstr "@george3_sigh ... Si es lo que debes..."
+msgstr "@george3_sigh ... Jarraitu behar baduzu..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:488:text
 msgid "@george3_sad It... wouldn't be right for me to keep you..."
-msgstr "@george3_sad No me parece correcto... intentar retenerte..."
+msgstr "@george3_sad Ez... legoke ondo zu geldiaraztea..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:492:text
 msgid "@george4_golly Ohhhh..... \\>\\n\\@george4_omg That was BEAUTIFUL!!!"
-msgstr "@george4_golly ¡Oooh!\\>\\n\\@george4_omg ¡¡Eso ha sido PRECIOSO!!"
+msgstr "@george4_golly Ooooh.....!\\>\\n\\@george4_omg ZORAGARRIA izan da!!"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:493:text
 msgid "@george4_omg Kip!!! Did you hear that! The messiah was trying to encourage \\p!"
-msgstr "@george4_omg ¡¡Kip!! ¿Has oído eso? ¡El mesías estaba intentando animar a \\p!"
+msgstr "@george4_omg Kip!! Entzun al duzu hori? Mesiak \\p animatzen ari zen!"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:494:text
 msgid "@kip_heh I'm right here..."
-msgstr "@kip_heh Estoy justo aquí..."
+msgstr "@kip_heh Hemen bertan nago..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:495:text
 msgid "@george4_omg I KNOW RIGHT!!! IT HAPPENED RIGHT IN FRONT OF OUR EYES!!!"
-msgstr "@george4_omg ¡¡LO SÉ MUY BIEN!! ¡¡HA OCURRIDO DELANTE DE TUS NARICES!!"
+msgstr "@george4_omg EZTAA??!! GURE PAREAN IZAN DA!!"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:496:text Maps/Red sky/Apartments/Hall2/Room6 - plant/trowel:1:2:text
 msgid "@niko_speak ..."
@@ -7162,47 +7162,47 @@ msgstr "@niko_speak ..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:497:text
 msgid "@george4_oops ...sorry, got carried away..."
-msgstr "@george4_oops ... Perdón, me he dejado llevar."
+msgstr "@george4_oops ... barkatu, liluratuta nengoen..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:498:text
 msgid "@george4 ...but yes, I think it's only right that we let you go!"
-msgstr "@george4 ... ¡Pero sí, creo que lo correcto es dejarte marchar!"
+msgstr "@george4 ... baina bai, zu joaten uztea erabaki zuzena dela uste dut!"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:502:text
 msgid "@george5_sad Aww... sweetie..."
-msgstr "@george5_sad Ay... cielo..."
+msgstr "@george5_sad Ay... laztana..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:503:text
 msgid "@george5_sigh You are so brave...\\.\\. even braver than most grown-ups..."
-msgstr "@george5_sigh Eres tan valiente... \\.\\.Incluso más valiente que la mayoría de adultos..."
+msgstr "@george5_sigh Hain ausarta zara... \\.\\.heldu gehienak baino ausartagoak..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:504:text
 msgid "@george5_hmm It... wouldn't be right for us to keep you, would it?"
-msgstr "@george5_hmm No creo... que retenerte fuera lo correcto, ¿verdad?"
+msgstr "@george5_hmm Ez litzake... zuzena izango zu hemen geldiaraztea, ezta?"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:505:text
 msgid "@george5_aww Besides, how can I say no to those puppy-dog eyes!"
-msgstr "@george5_aww Además, ¿cómo le voy a decir que no a esos ojitos de cachorrillo?"
+msgstr "@george5_aww Gainera, nola esango diot ezetz horrelako begiei?"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:509:text
 msgid "@george6_point Yo, kid...."
-msgstr "@george6_point Oye, joven..."
+msgstr "@george6_point Aizu, txiki..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:510:text
 msgid "@george6_smile You're real strong, you know that?"
-msgstr "@george6_smile Eres muy fuerte, ¿lo sabías?"
+msgstr "@george6_smile Indartsua zara, bazenekien?"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:511:text Maps/Blue/Cliffs/Lookout point/Mineshaft entrance/server room/backroom/proto:3:292:text
 msgid "@niko4 I..."
-msgstr "@niko4 Yo..."
+msgstr "@niko4 Ni..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:512:text
 msgid "@george6_fingerguns Go knock 'em dead, tiger!"
-msgstr "@george6_fingerguns ¡Déjalos fuera de combate, tigre!"
+msgstr "@george6_fingerguns Joan zaitez borrokara, tigre!"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:525:text
 msgid "@kip_heh Well, if George is fine with it..."
-msgstr "@kip_heh Bueno, si a George no le importa..."
+msgstr "@kip_heh Beno, George-i axola ez bazaio..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:526:text
 msgid "@kip_sigh I... \\.\\.guess we should let you go now, messiah..."
