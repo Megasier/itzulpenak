@@ -7198,7 +7198,7 @@ msgstr "@niko4 Ni..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:512:text
 msgid "@george6_fingerguns Go knock 'em dead, tiger!"
-msgstr "@george6_fingerguns Joan zaitez borrokara, tigre!"
+msgstr "@george6_fingerguns Emaiezu gogor, tigre!"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:525:text
 msgid "@kip_heh Well, if George is fine with it..."
@@ -7206,19 +7206,19 @@ msgstr "@kip_heh Beno, George-i axola ez bazaio..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:526:text
 msgid "@kip_sigh I... \\.\\.guess we should let you go now, messiah..."
-msgstr "@kip_sigh Supongo... \\.\\. que deberíamos dejarte ir ya, mesías..."
+msgstr "@kip_sigh ... \\.\\. zu joaten utzi behar genizuke, mesia..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:527:text
 msgid "@kip_pout But... promise us you'll be careful, okay?"
-msgstr "@kip_pout Pero... prométenos que tendrás cuidado, ¿vale?"
+msgstr "@kip_pout Baina... zin egin kontu handia izango duzula, ados?"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:529:text
 msgid "@niko2 You guys be safe too..."
-msgstr "@niko2 Cuidaos vosotros también."
+msgstr "@niko2 Zuek ere, zaindu zuen buruak."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/EV169:1:2:text
 msgid "[THIS IS THE LIBRARY / TEMPORARY SHELTER.]"
-msgstr "[ESTA ES LA BIBLIOTECA / REFUGIO TEMPORAL.]"
+msgstr "[HAU LIBURUTEGIA DA / BEHIN-BEHINEKO BABESLEKUA.]"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/npc_fishbowl:1:2:text
 msgid "Sigh...."
@@ -7226,15 +7226,15 @@ msgstr "*Hasperen..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/npc_fishbowl:1:5:text
 msgid "I had to leave my aquarium behind when they were sounding the sirens earlier..."
-msgstr "Tuve que deshacerme de mi acuario cuando sonaron las sirenas hace un rato..."
+msgstr "Nire arrainontzia atzean utzi behar izan nuen lehenago sirenak jotzen hasi zirenean..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/npc_fishbowl:1:6:text
 msgid "I wish I had time to rescue my fish..."
-msgstr "Ojalá tuviera tiempo de rescatar a mi pez..."
+msgstr "Nire arraina erreskatatzeko denbora izan banu..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/EV171:1:2:text
 msgid "I won't lose hope."
-msgstr "No perderé la esperanza."
+msgstr "Ez dut itxaropena galduko."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/EV171:1:5:text Maps/Red ground/ground 1/EV009:1:5:text Maps/POSTGAME green/Dock/pessimistic npc:1:1:text
 msgid "Sigh..."
@@ -7242,43 +7242,43 @@ msgstr "*Hasperen..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/EV171:1:7:text
 msgid "It's comforting to see the faith you have in \\p, messiah..."
-msgstr "Es reconfortante ver la fe que tienes en \\p, mesías..."
+msgstr "Lasaigarria da \\p -rengan duzun segurtasuna ikustea, mesia..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/EV171:1:8:text
 msgid "That's why... I won't lose hope either."
-msgstr "Por eso... Yo tampoco perderé la esperanza."
+msgstr "Horrexegatik... Nik ere ez dut sinisteari utziko."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/!vendor:1:2:text
 msgid "Y'know, now that everyone's coming to me for help..."
-msgstr "¿Sabes? Ahora que todo el mundo me está pidiendo ayuda..."
+msgstr "Badakizu? Orain denak niregana datoztela laguntza eske..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/!vendor:1:3:text
 msgid "...it really makes me appreciate you more, messiah!"
-msgstr "... ¡eso me hace sentir más admiración por ti, mesías!"
+msgstr "... zu gehiago miresten laguntzen dit, mesia!"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/!vendor:1:4:text
 msgid "Thank you for all you've done for us."
-msgstr "Gracias por todo lo que has hecho por nosotros."
+msgstr "Mila esker gure onerako egin duzun guztiagatik."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/!vendor:1:7:text
 msgid "Looks like my life's work is finally being put to good use!"
-msgstr "¡Parece que el trabajo de toda mi vida ha servido para algo!"
+msgstr "Nire bizitzako lana azkenean zerbaiterako balio duela dirudi!"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/!vendor:1:8:text
 msgid "As long as we conserve the water we have on hand ..."
-msgstr "Mientras conservemos el agua que tenemos al alcance de la mano..."
+msgstr "Eskura daukagun ura aurrezten dugun bitartean..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/!vendor:1:9:text
 msgid "...my water pills should be able to keep everyone here from going thirsty for weeks!"
-msgstr "... ¡Mis píldoras de agua deberían hacer que no sintiérais sed en semanas!"
+msgstr "... nire ur-pilulak denak egarri egoteari ekidin beharko lukete zenbait astez!"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/!vendor:1:1:text
 msgid "@niko This stand smells... sugary."
-msgstr "@niko Este puesto huele... a azúcar."
+msgstr "@niko Postu hau... azukre usaina du."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/!vendor:1:2:text
 msgid "Candy skewers, fresh off the grill!"
-msgstr "¡Pinchitos de caramelo, recién sacados del horno!"
+msgstr "Pinchitos de caramelo, recién sacados del horno!"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/!vendor:1:3:text
 msgid "...Not very nutritious, I'm afraid."
