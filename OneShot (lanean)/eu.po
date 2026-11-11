@@ -6410,7 +6410,7 @@ msgstr "@george6_shrug Babeslekutik joan zinen ezer esan gabe... \\>\\nBenetan i
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:71:text
 msgid "@george6 Whoaa! You found the messiah too?"
-msgstr "@george6 Uau! Mesia aurkitu duzu ere?"
+msgstr "@george6 Uaaau! Mesia aurkitu duzu ere?"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/kip:1:72:text
 msgid "@george6_fingerguns Sweeet."
@@ -7278,43 +7278,43 @@ msgstr "@niko Postu hau... azukre usaina du."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/!vendor:1:2:text
 msgid "Candy skewers, fresh off the grill!"
-msgstr "Pinchitos de caramelo, recién sacados del horno!"
+msgstr "Gozoki-pintxoak, labetik oraintxe bertan aterata!"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/!vendor:1:3:text
 msgid "...Not very nutritious, I'm afraid."
-msgstr "... Me temo que no alimentan mucho."
+msgstr "... ez oso elikagarriak, tamalez."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/!vendor:1:4:text
 msgid "But at least they'll keep the evacuees from gettin' hungry!"
-msgstr "¡Pero al menos evitarán que los refugiados tengan hambre!"
+msgstr "Baina errefuxiatuak gosetan ez egotea laguntzen du!"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/!vendor:1:1:text
 msgid "The city gate was destroyed a while back, I can't go into the Glen anymore..."
-msgstr "La puerta de la ciudad fue destruida hace un tiempo, ya no puedo entrar al Valle..."
+msgstr "Hiriko atea orain dela denbora daramala suntsituta, ezin dut Haranera gehiago joan..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/!vendor:1:2:text
 msgid "I'm not sure where I'll be able to get my supply of fish, at this rate..."
-msgstr "No sé con certeza de dónde podré obtener mis provisiones de pescado, a este paso..."
+msgstr "Horrela jarraitzekotan, auskalo nola lortutko dudan nire arrain-zuzkidura..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/!vendor:1:1:text
 msgid "I still have plenty of these soup dumplings left!"
-msgstr "¡Aún me quedan un montón de empanadillas de sopa!"
+msgstr "Sopa enpanadila mordoa dut oraindik!"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/!vendor:1:2:text
 msgid "Looks like it should feed everyone here for at least another day."
-msgstr "Yo diría que podría alimentarlos a todos al menos durante otro día más."
+msgstr "Hemengo guztiak beste egun batez elikatzeko nahikoa dudala esango nuke."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/npc_camera:1:1:text
 msgid "Looks like I'll have to cancel my appointment..."
-msgstr "Parece que voy a tener que cancelar mi cita..."
+msgstr "Neukan hitzordua bertan behera utzi beharko dudala dirudi..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/npc_camera:1:2:text
 msgid "This stinks!"
-msgstr "¡Esto huele fatal!"
+msgstr "Hau kiratsa!"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/EV177:1:2:text
 msgid "[EVERYTHING IS TERRIBLE]"
-msgstr "[TODO ES TERRIBLE]"
+msgstr "[DNA TXARTO DAGO]"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/EV178:1:1:text
 msgid "ZZZZZZZZZZZZZZZZ"
@@ -7322,7 +7322,7 @@ msgstr "ZZZZZZZZZZZZZZZZ"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/EV179:1:2:text
 msgid "@niko_eyeclosed She's asleep..."
-msgstr "@niko_eyeclosed Se ha dormido..."
+msgstr "@niko_eyeclosed Lo geratu da..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/EV179:1:5:text
 msgid "*yawn*"
@@ -7330,71 +7330,71 @@ msgstr "*Uaaa*"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/EV179:1:6:text
 msgid "The lab complex got totaled, didn't it...."
-msgstr "El complejo del laboratorio ha quedado hecho añicos, ¿verdad...?"
+msgstr "Laborategak txikituta geratu dira, ...ezta?"
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/EV179:1:7:text Maps/POSTGAME RED GROUND/To Tower/plight:1:85:text
 msgid "@niko3 Yeah..."
-msgstr "@niko3 Sí..."
+msgstr "@niko3 Bai..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/EV179:1:8:text
 msgid "All those hours I put into my work, and now..."
-msgstr "Con todas las horas que he dedicado a mi trabajo, y ahora..."
+msgstr "Han ipini ditudan ordu guztiekin, eta orain..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/EV179:1:9:text
 msgid "now...."
-msgstr "Ahora..."
+msgstr "orain..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/EV179:1:11:text Maps/Red ground/ground 2/Factory Entrance/2nd room/EV011:1:9:text
 msgid "@niko_eyeclosed She fell asleep..."
-msgstr "@niko_eyeclosed Se ha quedado dormida..."
+msgstr "@niko_eyeclosed Lokartu da..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/EV180:1:1:text
 msgid "Monitoring... monitoring..."
-msgstr "Monitorizando... monitorizando..."
+msgstr "Monitorizatzen... monitorizatzen..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/EV180:1:2:text
 msgid "Looks like our scouting unit #A27 is still doing okay..."
-msgstr "Parece que nuestra unidad exploradora Nº A27 sigue en condiciones..."
+msgstr "A27. espolartzaile unitatea oraindik ondo dagoela dirudi..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/EV181:1:1:text
 msgid "Robots are the only ones that we can send out there, now..."
-msgstr "Los robots son los únicos a los que podemos mandar al exterior..."
+msgstr "Robotak kanpora bidali ditzakegun gauza bakarrak dira..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/EV181:1:2:text
 msgid "Thankfully, we still have a couple of units that aren't too badly damaged..."
-msgstr "Afortunadamente, nos quedan un par de unidades que no están demasiado dañadas..."
+msgstr "Zorionez, oso hondatuta ez dauden pare bat unitate geratzen zaizkigu oraindik..."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/EV181:2:1:text
 msgid "This little guy ran into some squares earlier and managed to escape mostly intact."
-msgstr "Este pequeño se topó con unos cuadrados hace un rato y consiguió escapar casi intacto."
+msgstr "Txikitxo honek lauki batzuekin topo egin du lehen eta osorik ihes egitea lortu du."
 
 #: Maps/POSTGAME RED GROUND/ground 1/Library entrance/Lobby/EV181:2:2:text
 msgid "These newer models are pretty tough!"
-msgstr "¡Estos modelos más nuevos son bastante resistentes!"
+msgstr "Modelo berriago hauek nahiko gogorrak dira!"
 
 #: Maps/Blue/Old factory/EV298:1:1:text
 msgid "$There's something weird about the robots who get sent to work near the gas fields."
-msgstr "$Hay algo raro en los robots a los que envían a trabajar cerca de los campos de gas."
+msgstr "$Zerbait arraro gertatzen zaie gas zelaira bidaltzen dituzten robotei."
 
 #: Maps/Blue/Old factory/EV298:1:2:text
 msgid "$They appear to accumulate rust at a much slower rate than the others."
-msgstr "$Parece que acumulan óxido a mucha menos velocidad que el resto."
+msgstr "$Beste robotak baino azkoz motelago herdoiltzen direla dirudi."
 
 #: Maps/Blue/Old factory/EV298:1:4:text
 msgid "$The few who work directly with gas harvesting look practically new!"
-msgstr "$¡Los pocos que se dedican a tareas directas de conseguir gas parecen completamente nuevos!"
+msgstr "$Gas bilketan lan egiten zituztenak guztiz berriak dirudite!"
 
 #: Maps/Blue/Old factory/EV298:1:5:text
 msgid "$Is that a result of the atmosphere? Or am I just seeing things?"
-msgstr "$¿Es resultado de la atmósfera? ¿O me lo estoy imaginando?"
+msgstr "$Atmosferaren eragina dela eta izango da? Edo nire burutazio bat besterik ez da?"
 
 #: Maps/Red ground/backalley/rue/map events:1:12:text
 msgid "@niko_speak Whoa!\\>\\n\\@niko \\p? Did you see that fox just now?"
-msgstr "@niko_speak ¡Hala!\\>\\n\\@niko ¿\\p? ¿Has visto a ese zorro?"
+msgstr "@niko_speak Kontxo!\\>\\n\\@niko \\p? Azeri hori ikusi al duzu?"
 
 #: Maps/Red ground/backalley/rue/map events:1:13:text
 msgid "@niko_speak It just ran behind the tree..."
-msgstr "@niko_speak Ha salido corriendo detrás de ese árbol..."
+msgstr "@niko_speak Zuhaitz horren atzean ezkutatu da..."
 
 #: Maps/Red ground/backalley/rue/map events:2:1:text Maps/Red ground/backalley/rue/map events:2:10:text
 msgid "@rue_dark ..."
@@ -7402,59 +7402,59 @@ msgstr "@rue_dark ..."
 
 #: Maps/Red ground/backalley/rue/map events:2:4:text
 msgid "@rue_dark I'm sorry if you are looking for me."
-msgstr "@rue_dark Lo siento si me estás buscando a mí."
+msgstr "@rue_dark Barkatu bilatzen ari banauzu."
 
 #: Maps/Red ground/backalley/rue/map events:2:6:text
 msgid "@rue_dark But I cannot talk to you."
-msgstr "@rue_dark Pero no puedo hablar contigo."
+msgstr "@rue_dark Baina ezin dut zurekin hitz egin."
 
 #: Maps/Red ground/backalley/rue/map events:2:7:text
 msgid "@rue_dark Not now..."
-msgstr "@rue_dark Ahora no..."
+msgstr "@rue_dark Ez orain..."
 
 #: Maps/Red ground/backalley/rue/map events:2:11:text
 msgid "@rue_dark But... can you promise me something?"
-msgstr "@rue_dark Pero... ¿me prometes una cosa?"
+msgstr "@rue_dark Baina... hitz ematen didazu gauza batez?"
 
 #: Maps/Red ground/backalley/rue/map events:2:12:text Maps/Green/Ruins Out/Map Events:1:60:text Maps/Green/Ruins In/Alula/alula:5:5:text Maps/Red sky/Apartments/Hall1/Room3 - bot friend/EV003:1:8:text Maps/Green/Ruins In/Birdhall/Courtyard/passage/alula npc:2:13:text
 msgid "@niko Huh?"
-msgstr "@niko Bueno..."
+msgstr "@niko Huh?"
 
 #: Maps/Red ground/backalley/rue/map events:2:14:text
 msgid "@rue_dark If... you can find a way to return..."
-msgstr "@rue_dark Si... encuentras la forma de regresar..."
+msgstr "@rue_dark Nolabait... itzultzeko gai bazara..."
 
 #: Maps/Red ground/backalley/rue/map events:2:15:text
 msgid "@rue_dark ...please do."
-msgstr "@rue_dark ... hazlo."
+msgstr "@rue_dark ... egin ezazu."
 
 #: Maps/Red ground/backalley/rue/map events:2:16:text
 msgid "@niko Er...\\.\\.\\@niko2 What... do you mean by that?"
-msgstr "@niko Eh... \\.\\.\\@niko2 ¿Qué... quieres decir con eso?"
+msgstr "@niko Zer...? \\.\\.\\@niko2 Zer... esan nahi duzu horekin?"
 
 #: Maps/Red ground/backalley/rue/map events:2:18:text
 msgid "@niko ...\\>\\n\\@niko_eyeclosed No reply..."
-msgstr "@niko ...\\>\\n\\@niko_eyeclosed No responde..."
+msgstr "@niko ...\\>\\n\\@niko_eyeclosed Erantzunik ez..."
 
 #: Maps/Red ground/backalley/rue/EV012:1:8:text
 msgid "@rue We will meet again."
-msgstr "@rue Nos volveremos a ver."
+msgstr "@rue Elkar ikusiko gara berriro."
 
 #: Maps/Red ground/backalley/rue/EV012:1:9:text Maps/Red ground/backalley/rue/EV012:1:22:text Maps/Red ground/backalley/rue/EV012:1:38:text Maps/Red ground/backalley/rue/EV012:1:61:text Maps/Blue/Cliffs/Lookout point/Cabin/npc_silver:1:61:text Maps/Tower/Elevator/EV005:1:42:text
 msgid "@niko ...?"
-msgstr "@niko ¿...?"
+msgstr "@niko ...?"
 
 #: Maps/Red ground/backalley/rue/EV012:1:12:text
 msgid "@rue_talk So you found a way back after all."
-msgstr "@rue_talk Así que, al final, has encontrado la forma de volver."
+msgstr "@rue_talk Beraz, itzultzeko gai izan zarela dirudi."
 
 #: Maps/Red ground/backalley/rue/EV012:1:13:text
 msgid "@niko_speak Eh? \\>\\n\\@niko But I've never been here before..."
-msgstr "@niko_speak ¿Eh? \\>\\n\\@niko Pero nunca he estado aquí antes..."
+msgstr "@niko_speak Eh? \\>\\n\\@niko Baina ez naiz inoiz hemen egon..."
 
 #: Maps/Red ground/backalley/rue/EV012:1:14:text
 msgid "@rue That means..."
-msgstr "@rue Eso quiere decir que..."
+msgstr "@rue Horrek esan nahi du..."
 
 #: Maps/Red ground/backalley/rue/EV012:1:15:text Maps/Red ground/backalley/rue/EV012:1:19:text Maps/Red ground/backalley/rue/EV012:1:39:text
 msgid "@rue ..."
@@ -7462,15 +7462,15 @@ msgstr "@rue ..."
 
 #: Maps/Red ground/backalley/rue/EV012:1:16:text
 msgid "@rue_talk Have you... met the others?"
-msgstr "@rue_talk ¿Has... conocido a los otros?"
+msgstr "@rue_talk Besteak... ezagutu dituzu?"
 
 #: Maps/Red ground/backalley/rue/EV012:1:17:text
 msgid "@niko2 ...others? \\>\\n\\@niko2 You're the only fox I've seen..."
-msgstr "@niko2 ... ¿otros? \\>\\n\\@niko2 Tú eres el único zorro que he visto..."
+msgstr "@niko2 ... besteak? \\>\\n\\@niko2 Ikusi dudan azeri bakarra zara..."
 
 #: Maps/Red ground/backalley/rue/EV012:1:18:text
 msgid "@niko_speak Wait! There's that one plush in Calamus and Alula's house, right \\p?"
-msgstr "@niko_speak ¡Espera! En casa de Calamus y Alula hay uno de peluche, ¿verdad,\\p?"
+msgstr "@niko_speak Itxaron! Calamus eta Alularen etxean panpinezko bat dago, ezta,\\p?"
 
 #: Maps/Red ground/backalley/rue/EV012:1:20:text
 msgid "@rue_sad Sigh."
@@ -7478,39 +7478,39 @@ msgstr "@rue_sad *Hasperen."
 
 #: Maps/Red ground/backalley/rue/EV012:1:21:text
 msgid "@rue It's not time."
-msgstr "@rue No es momento."
+msgstr "@rue Oraindik ez da unea."
 
 #: Maps/Red ground/backalley/rue/EV012:1:23:text
 msgid "@rue ...we will meet again."
-msgstr "@rue ... nos volveremos a ver."
+msgstr "@rue ... elkar ikusiko gara berriro."
 
 #: Maps/Red ground/backalley/rue/EV012:1:31:text
 msgid "@rue_smile Hello, Niko."
-msgstr "@rue_smile Hola, Niko."
+msgstr "@rue_smile Kaixo, Niko."
 
 #: Maps/Red ground/backalley/rue/EV012:1:35:text
 msgid "@rue ...oh?"
-msgstr "@rue ... ¿oh?"
+msgstr "@rue ... oh?"
 
 #: Maps/Red ground/backalley/rue/EV012:1:36:text
 msgid "@rue_talk You're back again..."
-msgstr "@rue_talk Has vuelto..."
+msgstr "@rue_talk Itzuli zara berriro..."
 
 #: Maps/Red ground/backalley/rue/EV012:1:37:text
 msgid "@rue But...\\.\\.\\@rue_sad I said it was not time..."
-msgstr "@rue Pero...\\.\\.\\@rue_sad he dicho que no era el momento..."
+msgstr "@rue Baina...\\.\\.\\@rue_sad unea oraindik ez zela esan dut..."
 
 #: Maps/Red ground/backalley/rue/EV012:1:40:text
 msgid "@rue Are you here to keep me company, then?"
-msgstr "@rue Entonces, ¿has venido a hacerme compañía?"
+msgstr "@rue Orduan, nirekin egotera etorri zara?"
 
 #: Maps/Red ground/backalley/rue/EV012:1:41:text
 msgid "@rue_smile Guess I can't refuse that."
-msgstr "@rue_smile Creo que no puedo decirle que no a eso."
+msgstr "@rue_smile Ezin diot horri ezetz esan."
 
 #: Maps/Red ground/backalley/rue/EV012:1:42:text
 msgid "@rue ...I am Rue."
-msgstr "@rue ... Soy Rue."
+msgstr "@rue ... Rue naiz."
 
 #: Maps/Red ground/backalley/rue/EV012:1:43:text
 msgid "@rue_sad You will probably not remember my name in a while.\\.\\.\\n\\@rue_smile ...But I would still like to know yours."
@@ -8230,7 +8230,7 @@ msgstr "@niko Relucen con la luz de la lámpara."
 
 #: Maps/Green/Ruins Out/Map Events:3:14:text Maps/Green/Ruins In/Birdhall/Courtyard/passage/alula npc:2:20:text
 msgid "@niko_speak Whoa!"
-msgstr "@niko_speak ¡Hala!"
+msgstr "@niko_speak Kontxo!"
 
 #: Maps/Green/Ruins Out/Map Events:3:15:text
 msgid "@niko_speak That's a lotta shiny things!"
@@ -15623,7 +15623,7 @@ msgstr "@plight_2 No soy el panel de los botones."
 
 #: Maps/Red sky/Elevator deck/npc_plight:4:2:text
 msgid "@plight_shock Whoa! How did you make this?"
-msgstr "@plight_shock ¡Eh! ¿Cómo has hecho eso?"
+msgstr "@plight_shock Uau! Nola egin duzu hori?"
 
 #: Maps/Red sky/Elevator deck/npc_plight:4:3:text
 msgid "@niko_speak Out of a coffee can!"
